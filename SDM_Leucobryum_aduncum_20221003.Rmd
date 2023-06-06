@@ -282,9 +282,11 @@ plotROC(tuned_model@models[[4]])
 ```{r Response curves}
 plotResponse(tuned_model, var = "wc2_9", type = "cloglog", only_presence = TRUE, marginal = TRUE, fun = mean, rug = TRUE)
 ggsave("response_curve_wc2_9.png", width = 7, height = 7, units = "cm")
+ggsave("response_curve_wc2_9.pdf", width = 7, height = 7, units = "cm")
 
 plotResponse(tuned_model, var = "wc2_7", type = "cloglog", only_presence = TRUE, marginal = TRUE, fun = mean, rug = TRUE)
 ggsave("response_curve_wc2_7.png", width = 7, height = 7, units = "cm")
+ggsave("response_curve_wc2_7.pdf", width = 7, height = 7, units = "cm")
 ```
 
 # 4. Making predictions
@@ -300,7 +302,8 @@ plotPred(map.current,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 
-ggsave("map_current.png", width = 20, height = 15, units = "cm")
+ggsave("map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_current.pdf", width = 10, height = 7.5, units = "cm")
 ```
 
 # 5. Future projections
@@ -400,42 +403,49 @@ plotPred(map.current,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_current.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 1
 plotPred(map.45.1,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_1.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_1.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 2
 plotPred(map.45.2,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_2.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_2.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 3
 plotPred(map.45.3,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_3.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_3.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 4
 plotPred(map.45.4,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_4.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_4.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 5
 plotPred(map.45.5,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_5.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_5.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future distribution map 6
 plotPred(map.45.6,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_6.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_6.pdf", width = 10, height = 7.5, units = "cm")
 
 #Mean future distribution map
 future.mean <- mean(map.45.1,map.45.2,map.45.3,map.45.4,map.45.5,map.45.6)
@@ -444,6 +454,7 @@ plotPred(future.mean,
          lt = "Habitat\nsuitability",
          colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
 ggsave("map_future_mean.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_mean.pdf", width = 10, height = 7.5, units = "cm")
 ```
 
 ```{r Plot the presence/absence maps}
@@ -456,23 +467,31 @@ ths <- mean(c(ths.1[3, 2], ths.2[3, 2], ths.3[3, 2], ths.4[3, 2]))
 #Current presence/absence map
 plotPA(map.current, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_current.tif", overwrite = TRUE)
 ggsave("pa_map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_current.pdf", width = 10, height = 7.5, units = "cm")
 
 #Future presence/absence maps
 plotPA(map.45.1, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_1.tif", overwrite = TRUE)
 ggsave("pa_map_future_1.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_1.pdf", width = 10, height = 7.5, units = "cm")
 plotPA(map.45.2, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_2.tif", overwrite = TRUE)
 ggsave("pa_map_future_2.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_2.pdf", width = 10, height = 7.5, units = "cm")
 plotPA(map.45.3, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_3.tif", overwrite = TRUE)
 ggsave("pa_map_future_3.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_3.pdf", width = 10, height = 7.5, units = "cm")
 plotPA(map.45.4, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_4.tif", overwrite = TRUE)
 ggsave("pa_map_future_4.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_4.pdf", width = 10, height = 7.5, units = "cm")
 plotPA(map.45.5, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_5.tif", overwrite = TRUE)
 ggsave("pa_map_future_5.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_5.pdf", width = 10, height = 7.5, units = "cm")
 plotPA(map.45.6, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_6.tif", overwrite = TRUE)
 ggsave("pa_map_future_6.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_6.pdf", width = 10, height = 7.5, units = "cm")
 
 plotPA(future.mean, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_mean.tif", overwrite = TRUE)
 ggsave("pa_map_future_mean.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_mean.pdf", width = 10, height = 7.5, units = "cm")
 ```
 
 ```{r Summary of the future presence/absence maps}
@@ -494,7 +513,8 @@ gplot(future.sum) +
     theme(plot.title = element_text(hjust = 0.5),
           axis.ticks.x = element_blank(),
           axis.ticks.y = element_blank())
-ggsave("pa_map_future_sum.png", width = 20, height = 15, units = "cm")
+ggsave("pa_map_future_sum.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_sum.pdf", width = 10, height = 7.5, units = "cm")
 
 #Get sizes of all cells in raster (km2)
 cell_size <- cellSize(future.mean, mask = TRUE, unit = "km")
@@ -544,6 +564,7 @@ ggplot() +
   coord_quickmap() +
   theme_minimal()
 ggsave("pa_map_change.png", width = 15, height = 11.25, units = "cm")
+ggsave("pa_map_change.pdf", width = 15, height = 11.25, units = "cm")
 ```
 
 ## 6.2 Summary of the area
