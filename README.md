@@ -26,9 +26,9 @@
 - Area Calculation from https://caucasus-spiders.info/r-spatial/raster-basics-3/
 - Selected variable model (about 28 min.)
 - Tune hyperparameters with optimizeModel (about 7 min.)
-- plot species occurrence with mapview()
-- shortening bioclim data path with "./"
-- fix bug (upgrade moving from raster to terra)
-- change map color
-- change ggsave map size
+- Plot species occurrence with mapview()
+- Shortening bioclim data path with "./"
+- Fix bug (upgrade moving from raster to terra)
+- Change map color
+- Change ggsave map size
 - Started using GitHub with this version on 2023-06-06
