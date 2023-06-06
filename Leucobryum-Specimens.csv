@@ -1,0 +1,749 @@
+No,Code,Herbarium_number,Collector_number,Name,Corrected_name,fullCountry,Province,National_Park_or_Wildlife_Sanctuary,Location,Date,Alt,lat,lon,Note
+1,BCU,B000574,P. Sukkharak & T. Seelanan 154,Leucobryum aduncum var. aduncum,Leucobryum scalare,Thailand,Nakhon Si Thammarat,Khao Nan National Park,San Yen Expedition,22-Apr-07,1237 m,8.75437165,99.53000288,on breanch
+2,BCU,B000575,P. Sukkharak & T. Seelanan 17,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Nan National Park,San Yen Expedition,18-Apr-07,,,,on rocks
+3,BCU,B000576,P. Sukkharak & T. Seelanan 18,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Khao Nan National Park,San Yen Expedition,18-Apr-07,,,,on rocks
+4,BCU,B000577,P. Sukkharak & T. Seelanan 111,Leucobryum javense var. ?,Leucobryum juniperoideum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,San Yen Expedition,20-Apr-07,1301 m,8.74897563,99.5341194,on brach
+5,BCU,B000900,Y. Nathi 462,Leucobryum juniperoideum,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Inthanon National Park,,08-Oct-07,2189 m,18.33593,98.28548,"short turf, on soil in moist and shady area"
+6,BCU,B000901,Y. Nathi 542,Leucobryum juniperoideum,Leucobryum chlorophyllosum,Thailand,Chiang Mai,Doi Inthanon National Park,,03-Dec-07,2212 m,18.3336,98.2869,"short turf, on tree trunk open area, with strong light"
+7,BCU,B000902,Y. Nathi 841,Leucobryum juniperoideum,Leucobryum sanctum,Thailand,Chiang Mai,Doi Inthanon National Park,,03-Dec-07,2203 m,18.3338,98.28877,"short turf, on branch inmoist area, with intermittent light"
+8,BCU,B000903,Y. Nathi 857,Leucobryum juniperoideum,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Inthanon National Park,,03-Dec-07,2195 m,18.33364,98.28803,"short turf, on tree trunk in moist and shadey are"
+9,BCU,B000904,Y. Nathi 1027,Leucobryum juniperoideum,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Inthanon National Park,,13-Apr-08,2119 m,18.33359,98.28933,"short turf, on rock in moist and shady area, near by stream"
+10,BCU,B001168,"P. Sukkharak & T. Seelanan 198, 199",Leucobryum juniperoideum,,Thailand,Nakhon Si Thammarat,Khao Nan National Park,,,,,,
+11,BCU,B001400,P. Ajintaiyasil 028,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1223 m,,,"on bark under shade of tree, near waterfall"
+12,BCU,B001401,P. Ajintaiyasil 064,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,22-Jan-15,1239 m,,,"on bark under shade of tree, near waterfall"
+13,BCU,B001402,P. Ajintaiyasil 071,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,23-Jan-15,1227 m,,,"on log under shade of tree, near waterfall"
+14,BCU,B001403,P. Ajintaiyasil 073,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,23-Jan-15,1223 m,,,"on soils under shade of tree, near waterfall"
+15,BCU,B001404,P. Ajintaiyasil 108,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,05-Apr-15,1229 m,,,"on bark under shade of tree, near waterfall"
+16,BCU,B001405,P. Ajintaiyasil 121,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,05-Apr-15,1304 m,,,on bark in sunlight
+17,BCU,B001406,P. Ajintaiyasil 132B,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,20-May-15,1257 m,,,on bark under shade with Octoblepharum albidum
+18,BCU,B001407,P. Ajintaiyasil 150,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,21-May-15,1303 m,,,on bark in sunlight
+19,BCU,B001408,P. Ajintaiyasil 169,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,30-Jun-15,1302 m,,,on bark in sunlight
+20,BCU,B001409,P. Ajintaiyasil 171,Leucobryum aduncum var. scalare,Leucobryum aduncum,Thailand,Loei,Phu Kradueng National Park,,01-Jul-15,1257 m,,,on bark in sunlight
+21,BCU,B001410,P. Ajintaiyasil 185,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,08-Aug-15,1241 m,,,"on bark under shade of tree, near waterfall"
+22,BCU,B001411,P. Ajintaiyasil 429,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,13-Feb-15,1064 m,,,on log in sunlight
+23,BCU,B001412,P. Ajintaiyasil 493,Leucobryum aduncum var. scalare,Leucobryum aduncum,Thailand,Loei,Phu Kradueng National Park,,22-Dec-16,1256 m,,,"on bark and soils under shade of tree, near waterfall"
+24,BCU,B001413,P. Ajintaiyasil 031,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1232 m,,,"on soils under shade of tree, near waterfall"
+25,BCU,B001414,P. Ajintaiyasil 052,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,17-Dec-14,1243 m,,,"on soils under shade of tree, near waterfall"
+26,BCU,B001415,P. Ajintaiyasil 472,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,21-Dec-16,1222 m,,,"on soils under shade of tree, near waterfall"
+27,BCU,B001416,P. Ajintaiyasil 476,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,21-Dec-16,1256 m,,,"on soils under shade of tree, near waterfall"
+28,BCU,B001417,P. Ajintaiyasil 488,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,22-Dec-15,1256 m,,,"on rocks under shade of tree, near waterfall"
+29,BCU,B001418,P. Ajintaiyasil 015,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1225 m,,,"on soils under shade of tree, near waterfall"
+30,BCU,B001419,P. Ajintaiyasil 046,Leucobryum javense var. ?,Leucobryum scabrum,Thailand,Loei,Phu Kradueng National Park,,16-Dec-14,1251 m,,,"on bark under shade of tree, near waterfall"
+31,BCU,B001420,P. Ajintaiyasil 100,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,,19-Dec-15,1114 m,,,"on log under shade of tree, near waterfall"
+32,BCU,B001421,P. Ajintaiyasil 232B,Leucobryum javense var. ?,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,10-Aug-15,1113 m,,,"on log under shade of tree, near waterfall"
+33,BCU,B001422,P. Ajintaiyasil 233,Leucobryum javense var. ?,Leucobryum javense var. novae-guineae,Thailand,Loei,Phu Kradueng National Park,,10-Aug-15,1113 m,,,"on log under shade of tree, near waterfall"
+34,BCU,B001423,P. Ajintaiyasil 347,Leucobryum javense var. ?,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,16-Nov-15,1224 m,,,"on rocks under shade of tree, near waterfall"
+35,BCU,B001424,P. Ajintaiyasil 018,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1186 m,,,"on soils under shade of tree, near waterfall"
+36,BCU,B001425,P. Ajintaiyasil 027,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1195 m,,,"on rocks under shade of tree, near waterfall"
+37,BCU,B001426,P. Ajintaiyasil 034,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,15-Dec-14,1211 m,,,"on bark under shade of tree, near waterfall"
+38,BCU,B001427,P. Ajintaiyasil 061,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,22-Jan-15,1249 m,,,"on soils under shade of tree, near waterfall"
+39,BCU,B001428,P. Ajintaiyasil 194,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,08-Aug-15,1240 m,,,"on bark under shade of tree, near waterfall"
+40,BCU,B001429,P. Ajintaiyasil 353,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,16-Nov-15,1194 m,,,"on rocks under shade of tree, near waterfall"
+41,BCU,B001430,P. Ajintaiyasil 357,Leucobryum juniperoideum,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,,16-Nov-15,1184 m,,,"on soils under shade of tree, near waterfall"
+42,BCU,B001431,P. Ajintaiyasil 362,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Loei,Phu Kradueng National Park,,16-Nov-15,1184 m,,,"on bark under shade of tree, near waterfall"
+43,BCU,B002598,Y. Nathi 381,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,30-Nov-07,,,,"turf, on rotten log open area, with strong light"
+44,BCU,B002599,Y. Nathi 1160,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,12-May-08,,,,"short turf, on tree trunk in moist area, with intermittent light"
+45,BCU,B002600,n.s.,Leucobryum sanctum,Leucobryum sanctum,Thailand,Chon Buri,Khao Khiao Wildlife Sanctuary,Khao Kheaw,01-Nov-94,ca. 1000 m,,,
+46,BCU,B002601,n.s.,Leucobryum chlorophyllosum,Leucobryum aduncum,Thailand,Chon Buri,Khao Khiao Wildlife Sanctuary,Khao Kheaw,sn-Nov-1994,ca. 1000 m,,,
+47,BCU,B002602,n.s.,Leucobryum sanctum,Leucobryum sanctum,Thailand,Chon Buri,Khao Khiao Wildlife Sanctuary,Khao Kheaw,11/0/1994,ca. 1000 m,,,
+48,BCU,B002603,n.s.,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,,,,,
+49,BCU,B002605,n.s.,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,19-Mar-04,1400 m,,,on tree trunk
+50,BCU,B002606,n.s.,Leucobryum sp.,,Thailand,Chaiyaphum,Pa Hin Ngam National Park,,,,,,
+51,BCU,B002610,O. Thaithong 1314,Leucobryum brachyphyllum,Leucobryum scalare,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,Doi Chiang Dao,11-Mar-80,2030 m,,,on bark of Pinus khasya
+52,BCU,B002611,K. Sridith,Leucobryum chlorophyllosum,Leucobryum juniperoideum,Thailand,Phitsanulok,Phu Hin Rong Kla National Park,,11-Aug-87,1300 m,,,on humidity rock plate form and cliff
+53,BCU,B002612,V. Lertanantrakul,Leucobryum chlorophyllosum,Ochrobryum,Thailand,Sakon Nakhon,Kome-hom National Park,,08-Dec-72,,,,"on decaying log, rocks"
+54,BCU,B002613,J. Laohawanich,Leucobryum chlorophyllosum,Ochrobryum,Thailand,Uthai Thani,Huay Kha Khaeng Wildlife Sanctuary,Khao Hin Dang,14-Jan-78,,,,"on rotten log, diterocarp forest"
+55,BCU,B002614,O. Thaithong 166,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Luang Wildlife Sanctury,,28-Mar-76,ca. 1400 m,,,"on soil, rotten log, dry + shaded area"
+56,BCU,B002615,O. Thaithong 218,Leucobryum javense var. ?,Leucobryum bowringii,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khieo,06-Feb-77,ca. 1000 m,,,"on rack + soil, mossy forest"
+57,BCU,B002616,?????????? bryophyte ???? 2514,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,01-Jan-72,,,,on decaying log
+58,BCU,B002617,O. Thaithong 92,Leucobryum sanctum,Leucobryum sanctum,Thailand,Loei,Phu Kradueng National Park,,28-Nov-73,,,,on bark or decaying log
+59,BCU,B002618,O. Thaithong 165,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Loei,Phu Luang Wildlife Sanctury,,28-Mar-76,ca. 1400 m,,,"on rotten log, dry + shaded area"
+60,BCU,B002619,O. Thaithong 217,Leucobryum sanctum,Leucobryum bowringii,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khieo,06-Feb-77,ca. 1000 m,,,"on rack, soil, mossy forest"
+61,BCU,B002620,U. Jinoros 202,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,08-Feb-76,ca. 800 m,,,"on soil, shade area"
+62,BCU,B002621,O. Thaithong 222,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khieo,06-Feb-77,ca. 1000 m,,,"on rotten log, mossy forest"
+63,BCU,B002622,?????????? bryophyte ???? 2515,Leucobryum sanctum,Leucobryum sanctum,Thailand,Chanthaburi,Namtok Phlio National Park,Khao Sa Bap,29-Dec-72,,,,"on rocks, along stream"
+64,BCU,B002623,n.s.,Leucobryum scalare,Leucobryum aduncum,Thailand,Prachin Buri,,,0/12/1973,,,,on bark
+65,BCU,B002624,??????? ???????????,Leucobryum sanctum,Ochrobryum,Thailand,Surat Thani ,,?????????????,28-Apr-75,,,,
+66,BCU,B002625,W. Pornpipal,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Nakhon Ratchasima,Khao Yai National Park,,05-Feb-77,,,,on tree trunk
+67,BCU,B002626,Chintana et al.,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,30-Dec-74,,,,on bark of tree
+68,BCU,B002627,P. Rojanawit 10,Leucobryum sanctum,Leucobryum bowringii,Thailand,Nakhon Ratchasima,Khao Yai National Park,,05-Feb-77,,,,on decaying log
+69,BCU,B002628,W. Pongmala 21,Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,Mu Ko Chang National Park,"Koh Chang, Tan Mayom Waterfall",18-Jan-78,,,,on boulder at stream bank
+70,BCU,B002629,K. Sridith,Leucobryum sanctum,Leucobryum scalare,Thailand,Phitsanulok,Phu Hin rong Kla National Park,,20-Oct-87,1300 m,,,on humidity rock
+71,BCU,B002630,O. Thaithong 60,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,,,12-Dec-72,,,,on tree trunk
+72,BCU,B002631,O. Thaithong 163,Leucobryum scalare,Leucobryum scalare,Thailand,Loei,Phu Luang Wildlife Sanctury,,28-Mar-76,ca. 1300 m,,,"on rock crevier, bark of tree, open and dry area"
+73,BCU,B002632,O. Thaithong 164,Leucobryum scalare,Leucobryum aduncum,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khieo,06-Feb-77,ca. 1000 m,,,"on rotten log, mossy forest"
+74,BCU,B002633,O. Thaithong 337,Leucobryum scalare,Leucobryum aduncum,Thailand,Lampang,Doi Khun Tan National Park,Khun Tan,30-Oct-77,ca. 1100 m,,,at base of tree
+75,BCU,B002634,O. Thaithong 349,Leucobryum scalare,Leucobryum scalare,Thailand,Lampang,Doi Khun Tan National Park,Khun Tan,30-Oct-77,ca. 1250 m,,,on soil
+76,BCU,B002635,O. Thaithong 453,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,"Doi Chiang Dao, Houy Tad",11-Dec-78,ca. 800 m,,,on decaying log
+77,BCU,B002636,O. Thaithong 437,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi Pui, along road side to Ban Mea",09-Dec-78,1300 m,,,"on decaying log, hill evergreen forest"
+78,BCU,B002637,W. Lerlanantrakul 4,Leucobryum sp.,,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khieo,,,,,
+79,BCU,B002638,T. Boonkerd,Leucobryum sp.,,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+80,BCU,B002639,??????? ???????????,Leucobryum scalare,Leucobryum aduncum,Thailand,Surat Thani ,,??????????? ????????????? ?????????,27-Apr-75,,,,
+81,BCU,B002640,W. Pongmala 22,Leucobryum sp.,,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+82,BCU,B002641,????? ??????,Leucobryum scalare,Leucobryum scalare,Thailand,Lampang,Doi Khun Tan National Park,??????,27-Dec-75,,,,on soils or braks of tree
+83,BCU,B002642,Y. Anusri 15,Leucobryum scalare,Leucobryum aduncum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,08-Feb-76,700 m,,,"on bark, evergreen forest"
+84,BCU,B002643,n.s.,Leucobryum sp.,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,,,,,,
+85,BCU,B002644,O. Thaithong 12521,Leucobryum juniperoideum,Leucobryum juniperoideum,Japan,Miyazaki,,"Kyushu, Miyazaki-Ken, Nichinan-shi, Obi, Obi Castle",,,,,
+86,BCU,B002645,O. Thaithong 12601,Leucobryum sp.,,Japan,Miyazaki,,"Kyushu, Miyazaki-Ken, Koyu-gun, Nishimera-mura Makinokuchi, in an evergreen forest and Cryptomeria Japanica plantation in valley",,,,,
+87,BCU,B002646,O. Thaithong 12638,Leucobryum neilgherrense,Leucobryum juniperoideum,Japan,Miyazaki,,"Kyushu, Miyazaki-Ken, Koyu-gun, Nishimera-mura Makinokuchi, in an evergreen forest and Cryptomeria Japanica plantation in valley",,,,,
+88,BCU,B002647,O. Thaithong 12734,Leucobryum neilgherrense,Leucobryum juniperoideum,Japan,Miyazaki,,"Kyushu, Miyazaki-Ken, Nichinan-shi, Sakatani, Inotani Experiment Forest of Hattori",,,,,
+89,BCU,B002648,O. Thaithong 12620,Leucobryum scabrum,Leucobryum scabrum,Japan,Miyazaki,,"Kyushu, Miyazaki-Ken, Koyu-gun, Nishimera-mura Makinokuchi, in an evergreen forest and Cryptomeria Japanica plantation in valley",27-Apr-77,290 m,,,
+90,BCU,B002649,"K. Mayebara, VI 1951",Leucobryum scabrum,Leucobryum scabrum,Japan,Kumamoto,,Hitoyoshi,sn/sn/1951,ca 600 m,,,
+91,BK,BK249,A.F.G. Kerr,Leucobryum aduncum var. aduncum,,Thailand,Songkhla,,Ta Samet,27-Jan-28,,,,on sandy ground in 'Baeckia' heath
+92,BK,BK460,A.F.G. Kerr,Leucobryum bowringii,Ochrobryum,Thailand,Surat Thani ,,Kiensa,19-Feb-30,50 m,,,on log in evergreen forest
+93,BK,BK38(707),C. Chermsirivathana,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Kanchanaburi,,Pilog Thong,24-Feb-67,1000 m,,,growing on the ground in shade
+94,BK,BK225,A.F.G. Kerr,Leucobryum javense var. ?,,Thailand,Surat Thani ,,Kao Nawng,10-Aug-27,800 m,,,on tree in evergreen forest
+95,BK,BK8,A.F.G. Kerr,Leucobryum perichaetiale,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Sutep,06-Sep-14,1500 m ,,,
+96,BK,BK248,A.F.G. Kerr,Leucobryum pentastichum,Leucobryum aduncum,Thailand,Satun,Tarutao National Park,Koh Adang,16-Jan-28,300 m,,,on rock
+97,BK,BK9,C. Chermsirivathana,Leucobryum scalare,Leucobryum scalare,Thailand,Saraburi,Khao Yai National Park,Kao Yai,14-Oct-64,,,,on tree trunk in evergreen forest
+98,BK,BK(430)3,Kaseun,Leucobryum sanctum,Leucobryum sanctum,Thailand,Nakhon Nayok,Khao Yai National Park,Kao Yai,17-Mar-65,600-700 m,,,growing on rotter log in evergreen forest
+99,BK,,YYP,Leucobryum glaucum,,USA,,,Iowa,02-Aug-77,,,,on slope of sandstone
+100,BK,,"Z.Iwatsuki, T.Amano & S.Sakumoto",Leucobryum scabrum,Leucobryum scabrum,Japan,,,,23-Dec-76,450 m ,,,on soil
+101,BK,,YYP,Leucobryum sp.,,USA,,,Iowa,16-Apr-78,,,,
+102,BKF,BKF9722,"Akiyama, Irie, Printarakul & Kanzai 1027",Leucobryum aduncum var. aduncum,,Thailand,Chiang Mai,Doi Inthanon National Park,,10-Jan-10,1300 m ,18.55638889,98.53361111,on rotten log in a lower montane Castanopsis forest
+103,BKF,BKF4234,Bunnak 375,Leucobryum aduncum var. aduncum,,Thailand,Trat,Mu Ko Chang National Park,"Kaw Chang, Khao Nang Aen",20-Mar-55,190 m ,,,on decaying log in moist locality
+104,BKF,BKF4235,Bunnak 375,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,"Kaw Chang, Khao Nang Aen",20-Mar-55,190 m ,,,on decaying log in moist locality
+105,BKF,BKF9782,"Akiyama, Irie, Printarakul & Kanzai 1129",Leucobryum bowringii,Leucobryum bowringii,Thailand,Chiang Mai,Doi Inthanon National Park,,14-Jan-10,1650 m,,,on rotten log along a steam in evergreen montane forest
+106,BKF,BKF8884,"H. Akiyama, M.Kanzaki, T. Irie & N. Ando 142",Leucobryum bowringii,,Thailand,Chiang Mai,Doi Inthanon National Park,,29-Dec-08,1650-1700 m,18.52611111,98.41305556,on decayed fallen tree along a trail on ridge of upper montane forest
+107,BKF,BKF6866,A. Touw 11664,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,05-Feb-66,1250-1450 m,8.5,99.75,evergreen forest along ridge; on tree trunks
+108,BKF,BKF6870,A. Touw 12146,Leucobryum bowringii,Leucobryum bowringii,Thailand,Prachin Buri,Khao Yai National Park,Khao Khieo,16-Feb-66,1200 m,14.5,101.5,"hill evergreen forest, on felled trees"
+109,BKF,BKF6875,A. Touw 10298,Leucobryum bowringii,Leucobryum bowringii,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen viliages of Pha Mon and Ban Sop Aep,21-Dec-65,850 m,18.58333333,98.5,narrow fringe of evergreen forest along Mae Hoi River; on decaying log
+110,BKF,BKF6881,A. Touw 11699,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,05-Feb-66,1450-1650 m,8.5,99.75,evergreen forest along ridge; on tree trunks
+111,BKF,BKF6876,A. Touw 11557,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,04-Feb-66,800-1000 m,8.5,99.75,evergreen forest on ridge; on rocks
+112,BKF,BKF6846,A. Touw 12102,Leucobryum bowringii,Leucobryum bowringii,Thailand,Prachin Buri,Khao Yai National Park,Khao Khieo,16-Feb-66,1200 m,14.5,101.5,hill evergreen forest; on felled trees
+113,BKF,BKF6887,P. Tixier,Leucobryum brachyphyllum,Leucobryum aduncum,Thailand,Phitsanulok,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Mieng,11-May-65,1300 m ,,,on trunk
+114,BKF,BKF6872/1,A. Touw 12375,Leucobryum candidum,Leucobryum aduncum,Thailand,Prachin Buri,Khao Yai National Park,Khao Khieo,18-Feb-66,700 m,14.5,101.5,evergreen forest along stream near forest station; epiphytic
+115,BKF,BKF6872/2,A. Touw 12375,Leucobryum candidum,Leucobryum aduncum,Thailand,Prachin Buri,Khao Yai National Park,Khao Khieo,18-Feb-66,700 m,14.5,101.5,evergreen forest along stream near forest station; epiphytic
+116,BKF,BKF6897,A. Touw 8795,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",30-Nov-65,1550-1600 m,18.83333333,98.91666667,"summit region of Doi Buak Hai; evergreen forest on E. slope, on tree trunks and branches"
+117,BKF,BKF6898,A. Touw 8421,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",27-Nov-65,1000-1100 m,18.83333333,98.91666667,Humid evergreen forest along streamlet; on decaying log
+118,BKF,BKF2748,A. Touw 11569,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,04-Feb-66,1000 m,8.5,99.75,evergreen forest near Camp II; on decaying logs
+119,BKF,BKF4126,J. Baumgartner,Leucobryum glaucum,Leucobryum glaucum,Austria,,,Ost-Steiermark,01-Jun-32,450 m,,,
+120,BKF,BKF4128,W.C. Barbour,Leucobryum glaucum,Leucobryum glaucum,USA,,,"Nordamerika, Pennsylvanien",,300 m,,,
+121,BKF,BKF4814,"Schroeder, Gary J.",Leucobryum glaucum,Leucobryum glaucum,USA,,,"Wisconsin, Bayfield County",29-Jun-69,,,,on rotted stumo/soil well shaded
+122,BKF,BKF8893,"H. Akiyama, M.Kanzaki, T. Irie & N. Ando 177",Leucobryum javense var. ?,,Thailand,Chiang Mai,Doi Inthanon National Park,,29-Dec-08,1650-1700 m,18.2177,98.413056,on rotten log along a trail on ridge of upper montane forest
+123,BKF,BKF9858,"Akiyama, Irie, Printarakul & Kanzai 1267",Leucobryum javense var. ?,Leucobryum scabrum,Thailand,Chiang Mai,Doi Inthanon National Park,,17-Jan-10,2250 m,18.565278,98.4867,on soil in a mossy evergreen upper montane forest in a small vallry
+124,BKF,BKF6852,P. Tixier,Leucobryum javense var. ?,Leucobryum scabrum,Thailand,Phitsanulok,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Mieng,11-May-65,1300 m,,,decayed wood
+125,BKF,BKF6864,A. Touw 11877,Leucobryum javense var. ?,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,05-Feb-66,1530-1700 m,8.5,99.75,evergreen forest; on tree trunks and under-growth
+126,BKF,BKF6868,A. Touw 10297,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen viliages of Pha Mon and Sop Aep,21-Dec-65,850 m,18.58333333,98.5,narrow fringe of evergreen forest along Mae Hoi River; on decaying log
+127,BKF,BKF4246,T. Smitinand 3228,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,"Pong Namrawn, Khao Soidao",23-Jan-56,1700 m,,,whitish moss on earth in hill evergreen forest
+128,BKF,BKF4245,T. Smitinand 362,Leucobryum javense var. ?,,Thailand,Loei,Phu Kradueng National Park,"Phu Kradueng, Tham Saw",09-May-57,,,,Green moss with brown sporophere on damp rock near stream edge of evergreen
+129,BKF,BKF4247,T. Smitinand & William 8409,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Ratchasima,Khao Yai National Park,"Khao Khie, Khao Yai",11-Nov-63,1400 m,,,whitish green moss on tree
+130,BKF,BKF4249,,Leucobryum javense var. ?,,Thailand,,,,,,,,
+131,BKF,BKF4239,T. Smitinand 6523,Leucobryum javense var. ?,Leucobryum javense var. javense,Cambodia,Kampot,,Mt. Bokor,,,,,"Whitish moss common in earth, evergreen forest"
+132,BKF,BKF4243,R.G. Robbins 3567,Leucobryum javense var. ?,Leucobryum scabrum,Thailand,Chiang Mai,Doi Inthanon National Park,on traok to summit of Doi Inthanon. Near valley of Phrn Mawn,28-Oct-62,2600 ft,,,"epixylic, evergreen gallery forest"
+133,BKF,BKF3270,"K. Larsen, T. Smitinand & E. Warncke 73",Leucobryum javense var. ?,Leucobryum scabrum,Thailand,Prachin Buri,Khao Yai National Park,,07-Jul-66,1300 m,,,"open sandstone plateau, Epiphytic on tree"
+134,BKF,BKF6845,A. Touw 12051,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Prachin Buri,Khao Yai National Park,,16-Feb-66,1200 m,14.5,101.5,hill evergreen forest; on trees
+135,BKF,BKF6428,J.F. Maxwell B-129,Leucobryum microleucophanoides,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"??????????? summit ridge of Doi Mawn Ngaw, near Nawn Ngaw (Hmong) Village, Muang Guy Subdistrict",24-Jul-00,1300 m,,,"partly shaded, fire-dameged, degraded, primary, evergreen, seasonal, heardwood + remneant pine forest: granite bedrock, on tree trunks; stipes dull violet, calyptra light green; leaves green"
+136,BKF,BKF6892,A. Touw 9670,Leucobryum neilgherrense,,Thailand,Chiang Mai,Doi Inthanon National Park,granitic massive Doi (Mt.) Inthanon,17-Dec-65,1750-1800 m,18.58333333,98.5,Hill evergreen forest; on tree trunke around the camp site
+137,BKF,BKF6899,A. Touw 8738,Leucobryum neilgherrense,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",29-Nov-65,1650-1685 m,18.83333333,98.91666667,summit region of Doi Pui; open evergreen forest with Pinus khasya; on tree trunks and branches
+138,BKF,BKF6880,A. Touw 9109,Leucobryum neilgherrense,Leucobryum juniperoideum,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,limestone massive Doi (Mt.) Chiengdao,06-Dec-65,1600-1650 m,19.41666667,98.91666667,open hill evergreen forest on exposed ridge; on tree trunks and branches
+139,BKF,BKF6871,A. Touw 9597,Leucobryum neilgherrense,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,granitic massive Doi (Mt.) Inthanon,17-Dec-65,1500 m,18.58333333,98.5,Humid hill evergreen forest along streamlet on tree trunks
+140,BKF,BKF2751,"B. Hansen, G. Seidenfaden & T. Smitinand 11511a",Leucobryum neilgherrense,,Thailand,Phitsanulok,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Mieng,13-Nov-64,1250 m,,,on rock
+141,BKF,BKF4251,T. Smitinand 3114,Leucobryum neilgherrense,,Thailand,Loei,Phu Kradueng National Park,,30-Oct-55,1300 m,,,Greenish moss massing on earth in hill evergreen jungle by stream; sporogonium-greenish
+142,BKF,BKF2750,A. Touw 8518,Leucobryum neilgherrense,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",28-Nov-65,1600-1650 m,18.83333333,98.91666667,Summit region of Doi Pui; open evergreen forest; on tree trunks and branches
+143,BKF,BKF6858,P. Tixier 588,Leucobryum perichaetiale,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep Chieng Mai,28-May-65,1300 m,,,on trunk in dry forest
+144,BKF,BKF4259,"K. Larsen, T. Smitinand & E. Warncke 1826",Leucobryum sanctum,Leucobryum arfakianum,Thailand,Chanthaburi,Mu Ko Chang National Park,Koh Chang Island,25-Aug-66,,,,1 km s.o. Ban Khlong Nonsi. On loamy boulders in shadow
+145,BKF,BKF2752,A. Touw 12421,Leucobryum sanctum,Leucobryum arfakianum,Thailand,Prachin Buri,Khao Yai National Park,,19-Feb-66,650-680 m,14.5,101.5,Kluey Mai (Orchid) Waterfall; evergreen forest along stream; on rocks (partly soil covered ones)
+146,BKF,BKF6849,A. Touw 11716,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,05-Feb-66,1650-1700 m,8.5,99.75,evergreen mossy forest; on tree trunks
+147,BKF,BKF6861,A. Touw 11860,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,05-Feb-66,1700-1740 m,8.5,99.75,summit region; stunted mossy forest; on trees and shrubs
+148,BKF,BKF6850,A. Touw 10299,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen villages of Pha Mon and Sop Aep.,21-Dec-65,850 m,18.58333333,98.5,Narrow fringa of evergreen forest along Mae Hoi River; on decaying log
+149,BKF,BKF6891,A. Touw 10293,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen villages of Pha Mon and Sop Aep.,21-Dec-65,1150 m,18.58333333,98.5,hill evergreen forest rich in Pinus kharya; on tree trunks
+150,BKF,BKF4253,R.G. Robbins 3648,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Mt. Suthep,04-Nov-62,5000 ft,,,"dry evergreen forest, corticolous"
+151,BKF,BKF6885,P. Tixier 535,Leucobryum scalare,Leucobryum scalare,Thailand,Surat Thani ,,Ta Phet,15-Apr-65,140 m,,,on trunk in deep forest
+152,BKF,BKF6610,A. Touw 12155,Leucobryum scalare,Leucobryum scalare,Thailand,Prachin Buri,Khao Yai National Park,,16-Feb-66,1200 m,14.5,101.5,hill evergreen forest; on trees
+153,BKF,BKF6888,A. Touw 10291,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,granitic massive Doi (Mt.) Inthanon,21-Dec-60,1650 m,18.58333333,98.5,open hill evergreen forest; on trees trunks
+154,BKF,BKF6886,A. Touw 9453,Leucobryum scalare,Leucobryum scalare,Thailand,Nakhon Si Thammarat,Doi Inthanon National Park,near Karen village of Sop Aep,14-Dec-65,700 m,18.5,98.58333333,narrow fringe of rather dry evergreen forest along Mae Hoi River near Sop Aep; on tree trunks
+155,BKF,BKF6843,A. Touw 8801,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",30-Nov-65,1550-1600 m,18.83333333,98.91666667,Summit region of Doi Buak Ha; evergreen forest on E. slope; on tree trunks and branches
+156,BKF,BKF6857,A. Touw 8301,Leucobryum scalare,Leucobryum scalare,Thailand,Nakhon Sawan,,"Nakhon Sawan; along road Doi Musae-Mae Sod, 12 km from Doi Musae",21-Nov-65,700 m,16.66666667,98.91666667,humid evergreen forest along road; on tree trunk
+157,BKF,BKF6889,A. Touw 11476,Leucobryum scalare,Leucobryum scalare,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,03-Feb-66,600 m,8.75,99.75,evergreen forest near camp I; on fallen logs
+158,BKF,BKF4254,K. Bunchuai 1393,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,,Chom Thong,21-Nov-64,5000 ft,,,common on tree in evergreen forest. Spores yellowish red
+159,BKF,BKF4252,R.G. Robbins 3564,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,"valley of Phra Mawn, on track to summit of Doi Inthanon",28-Oct-62,3700 ft,,,"grove of pine trees, corticolous"
+160,BKF,BKF2754,T. Smitinand 11667,Leucobryum scalare,Leucobryum aduncum,Thailand,Nakhon Nayok,Khao Yai National Park,Khao Yai,07-Mar-64,800 m,,,on soil
+161,BKF,BKF6908,T. Smitinand 11449,Leucobryum scalare,Leucobryum scalare,Thailand,Chiang Mai,,5 km W of Bo Luang,29-Jan-64,1150 m,,,epiphytic on lower part of tree trunk
+162,BKF,BKF6909,T. Smitinand 11410,Leucobryum scalare,Leucobryum scalare,Thailand,,,Kwang San,22-Jan-64,1500 m,,,
+163,BKF,BKF4258,"K. Larsen, T. Smitinand & E. Warncke 696",Leucobryum scalare,Leucobryum scalare,Thailand,Phitsanulok,,Tung Salaeng Luang,21-Jul-66,700 m,,,"on decaying wood, on burnt of area in Dipterocarp and Pinus markusii forest"
+164,BKF,BKF4260,"K. Larsen, T. Smitinand & E. Warncke 905",Leucobryum scalare,Leucobryum aduncum,Thailand,Phitsanulok,,Tung Salaeng Luang,25-Jul-66,700 m,,,evergreen e.o. the forest station. On decaying wood
+165,BKF,BKF4261,"K. Larsen, T. Smitinand & E. Warncke 1810",Leucobryum scalare,Leucobryum scalare,Thailand,Chanthaburi,Mu Ko Chang National Park,Koh Chang Island,25-Aug-66,0-400 m,,,1 km s.o. Ban Khlong Nonsi. On Decaying wood
+166,BKF,BKF1041,"K. Larsen, T. Smitinand & E. Warncke 1041",Leucobryum scalare,Leucobryum scalare,Thailand,Phitsanulok,Phu Miang and Phu Tong Wildlife Sanctuary,Puh Mieng Mountain,28-Jul-66,1300 m,,,open sandstone plateau on decaying wood
+167,BKF,BKF4263,"K. Larsen, T. Smitinand & E. Warncke 1695",Leucobryum scalare,Leucobryum aduncum,Thailand,Chanthaburi,Mu Ko Chang National Park,Koh Chang Island,22-Aug-66,200 m,,,Rubber plantation near foothill of Khao Sabab
+168,BKF,BKF4264,D. Prapat 380,Leucobryum scalare,Leucobryum scalare,Thailand,Nakhon Ratchasima,,Pak Thong Chai,10-Nov-67,,,,scattered on slope of hill in evergreen forest
+169,BKF,BKF6869,A. Touw 8012,Leucobryum sp.,,Thailand,Nakhon Sawan,,Doi Musae Agricultural Experiment Station,17-Nov-65,750-800 m,16.75,99,base of tree in moist and shady evergreen forest along streamlet
+170,BKF,BKF6877,A. Touw 9903,Leucobryum sp.,,Thailand,Chiang Mai,Doi Inthanon National Park,granitic massive Doi (Mt.) Inthanon,19-Dec-65,1750-1800 m,18.58333333,98.5,on tree in clearing near camp III
+171,BU,,P. Sukkharak 1,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,Bua Chak Yai Nature Trail,22-Jul-05,,,,on soil
+172,BU,,P. Sukkharak 2,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,Bua Chak Yai Nature Trail,22-Jul-05,,,,on soil
+173,BU,,P. Sukkharak 9,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,Bua Chak Yai Nature Trail,22-Jul-05,,,,on soil with liverwort
+174,BU,,P. Sukkharak 27,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,Bua Chak Yai Nature Trail,22-Jul-05,,,,on soil
+175,BU,,P. Sukkharak 28,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Nan National Park,Bua Chak Yai Nature Trail,22-Jul-05,,,,on bark
+176,BU,,P. Sukkharak 1177,Leucobryum sp.,Leucobryum scalare,Thailand,Nan,Khun Sathan National Park,,,,,,
+177,BU,,P. Sukkharak 1198,Leucobryum sp.,Leucobryum scalare,Thailand,Nan,Khun Sathan National Park,,,,,,
+178,BU,,P. Sukkharak 2141,Leucobryum sp.,Leucobryum bowringii,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+179,BU,,P. Sukkharak 2489,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+180,BU,,P. Sukkharak 2537b,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+181,BU,,P. Sukkharak 2542,Leucobryum sp.,Leucobryum scabrum,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+182,BU,,P. Sukkharak 2612,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+183,BU,,P. Sukkharak 3039,Leucobryum sp.,Leucobryum arfakianum,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+184,BU,,P. Sukkharak 3041,Leucobryum sp.,Leucobryum aduncum,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+185,BU,,P. Sukkharak 3237,Leucobryum sp.,Leucobryum arfakianum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+186,BU,,P. Sukkharak 3300,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+187,BU,,P. Sukkharak 3338,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+188,BU,,P. Sukkharak 3357,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+189,BU,,P. Sukkharak 3369,Leucobryum sp.,Leucobryum chlorophyllosum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+190,BU,,P. Sukkharak 3387,Leucobryum sp.,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+191,BU,,P. Sukkharak 3410,Leucobryum sp.,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+192,BU,,P. Sukkharak 3453,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+193,BU,,P. Sukkharak 3460,Leucobryum sp.,Leucobryum juniperoideum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+194,BU,,P. Sukkharak 3465,Leucobryum sp.,Leucobryum juniperoideum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+195,BU,,P. Sukkharak 3473,Leucobryum sp.,Leucobryum arfakianum(S),Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+196,BU,,P. Sukkharak 3480,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+197,BU,,P. Sukkharak 3485,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+198,BU,,P. Sukkharak 3503(1),Leucobryum sp.,Leucobryum juniperoideum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+198,BU,,P. Sukkharak 3503(2),Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+199,BU,,P. Sukkharak 3505,Leucobryum sp.,Leucobryum arfakianum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+200,BU,,P. Sukkharak 3518,Leucobryum sp.,Leucobryum arfakianum(S),Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+201,BU,,P. Sukkharak 3536,Leucobryum sp.,Leucobryum arfakianum(S),Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+202,BU,,P. Sukkharak 3576,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+203,BU,,P. Sukkharak 3597,Leucobryum sp.,Leucobryum arfakianum(S),Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+204,BU,,P. Sukkharak 3608,Leucobryum sp.,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+205,BU,,P. Sukkharak 3688,Leucobryum sp.,Leucobryum arfakianum(S),Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+206,BU,,P. Sukkharak 3699,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+207,BU,,P. Sukkharak 3709,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+208,BU,,P. Sukkharak 3712,Leucobryum sp.,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+209,BU,,P. Sukkharak 3720,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+210,BU,,P. Sukkharak 3731,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+211,BU,,P. Sukkharak 3740,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+212,BU,,P. Sukkharak 3764,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+213,BU,,P. Sukkharak 3786,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+214,BU,,P. Sukkharak 3901,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+215,BU,,P. Sukkharak 3919,Leucobryum sp.,Leucobryum scabrum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+216,BU,,P. Sukkharak 4036,Leucobryum sp.,Leucobryum bowringii,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+217,BU,,P. Sukkharak 4143,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,8.467747222,99.75474167,
+218,BU,,P. Sukkharak 4152,Leucobryum sp.,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,Khao Luang National Park,Khao Luang,,,,,
+219,BU,,P. Sukkharak 4327,Leucobryum sp.,Ochrobryum,Thailand,Khon Khan,,Prabathphuphankham temple,,,,,
+220,BU,,P. Sukkharak 4391,Leucobryum sp.,Leucobryum scabrum,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+221,BU,,P. Sukkharak 4508,Leucobryum sp.,Leucobryum bowringii,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+222,BU,,P. Sukkharak 4680,Leucobryum sp.,,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+223,BU,,P. Sukkharak 4699,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+224,BU,,P. Sukkharak 4700,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Loei,Phu Luang Wildlife Sanctury,Phu Luang,,,,,
+225,BU,,P. Sukkharak 4792,Leucobryum sp.,Leucobryum bowringii,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,Huai Yang waterfall,,,,,
+226,BU,,P. Sukkharak 4841,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,Huai Yang waterfall,,,,,
+227,BU,,P. Sukkharak 4852,Leucobryum sp.,Leucobryum scabrum,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,Huai Yang waterfall,,,,,
+228,BU,,P. Sukkharak & Tanming 43,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,,,,,
+229,BU,,P. Sukkharak & Tanming 107,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,,,,,
+230,BU,,P. Sukkharak & Tanming 208,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,,,,,
+231,BU,,P. Sukkharak & Tanming 236,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,,,,,
+232,BU,,"P. Sukkharak, Likananon, & Kitlap 79",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+233,BU,,"P. Sukkharak, Likananon, & Kitlap 237",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+234,BU,,"P. Sukkharak, Likananon, & Kitlap 275",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+235,BU,,"P. Sukkharak, Likananon, & Kitlap 273",Leucobryum juniperoideum,Leucobryum juniperoideum(B),Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,08-Apr-12,,,,???????????
+236,BU,,"P. Sukkharak, Likananon, & Kitlap 283",Leucobryum juniperoideum,Leucobryum juniperoideum(B),Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,08-Apr-12,,,,?????
+237,BU,,"P. Sukkharak, Likananon, & Kitlap 137",Leucobryum bowringii,Leucobryum scalare,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,07-Apr-12,,,,????????
+238,BU,,"P. Sukkharak, Likananon, & Kitlap 386",Leucobryum bowringii,Leucobryum scalare,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,07-Apr-12,,,,????????
+239,BU,,"P. Sukkharak, Likananon, & Kitlap 45",Leucobryum sp.,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+240,BU,,"P. Sukkharak, Likananon, & Kitlap 51",Leucobryum sp.,Leucobryum scalare,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+241,BU,,"P. Sukkharak, Likananon, & Kitlap 61",Leucobryum sp.,Leucobryum juniperoideum,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+242,BU,,"P. Sukkharak, Likananon, & Kitlap 172",Leucobryum sp.,Leucobryum javense var. javense,Thailand,Chanthaburi,Khao Soi Dao Wildlife Sanctuary,Khao Soi Dao,,,,,
+243,BU,,Tongma 6,Leucobryum sp.,,Thailand,Chanthaburi,,Tung Dan Botanical Garden,,,,,
+244,BU,,Tongma 49,Leucobryum sp.,Leucobryum aduncum,Thailand,Chanthaburi,,Tung Dan Botanical Garden,,,,,
+245,BU,,Pearaksa s.n.,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,28-Apr-12,,,,?????????????????????
+246,BU,,Students attended in fern biology course,Leucobryum sp.,Leucobryum arfakianum,Thailand,Sa Kaeo,Pang Sida National Park,Pang Sida National Park,17-Sep-11,,,,
+247,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum arfakianum,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+248,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum arfakianum,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+249,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum scalare,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+250,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+251,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum scalare,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+252,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+253,BU,,P. Sukkharak s.n.,Leucobryum sp.,,Thailand,Trat,Mu Ko Chang National Park,Koh Kood,,,,,
+254,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum arfakianum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+255,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+256,BU,,P. Sukkharak s.n.,Leucobryum sp.,Leucobryum chlorophyllosum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+257,BU,,S. He & P. Sukkharak 46641,Leucobryum sp.,Leucobryum scabrum,Thailand,Loei,Phu Luang Wildlife Sanctury,around Ban Kulaphaw forest Station,17-Feb-16,1465 m,17.28027778,101.5183333,dry evergreen forest
+258,BU,,S. He & P. Sukkharak 46651,Leucobryum sp.,Leucobryum scabrum,Thailand,Loei,Phu Luang Wildlife Sanctury,around Ban Kulaphaw forest Station,17-Feb-16,1465 m,17.28027778,101.5183333,dry evergreen forest
+259,BU,,S. He & P. Sukkharak 46652,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Luang Wildlife Sanctury,around Ban Kulaphaw forest Station,17-Feb-16,1465 m,17.28027778,101.5183333,dry evergreen forest
+260,BU,,S. He & P. Sukkharak 46676,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Luang Wildlife Sanctury,trail from Ban Kulaphaw station to Pak Dam summit,17-Feb-16,1465-1480 m,17.27027778,101.5222222,dry evergreen forest
+261,BU,,S. He & P. Sukkharak 46693,Leucobryum sp.,Leucobryum bowringii,Thailand,Loei,Phu Luang Wildlife Sanctury,trail from Ban Kulaphaw station to Pak Dam summit,17-Feb-16,1465-1480 m,17.27027778,101.5222222,dry evergreen forest
+262,BU,,S. He & P. Sukkharak 46817,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Luang Wildlife Sanctury,trail from Ban Kulaphaw station to Pak Dam summit,17-Feb-16,1450-1470 m,17.28138889,101.5208333,dwarf and shaded dry evergreen forest
+263,BU,,S. He & P. Sukkharak 46916,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Loei,Phu Ruea National Park,Sum Tong Cliff,21-Feb-16,1250 m,17.49805556,101.3525,dry dwarf evergreen forest
+264,BU,,S. He & P. Sukkharak 46922,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Ruea National Park,Sum Tong Cliff,21-Feb-16,1250 m,17.49805556,101.3525,dry dwarf evergreen forest
+265,BU,,S. He & P. Sukkharak 46926,Leucobryum sp.,Leucobryum bowringii,Thailand,Loei,Phu Ruea National Park,Sum Tong Cliff,21-Feb-16,1250 m,17.49805556,101.3525,dry dwarf evergreen forest
+266,BU,,S. He & P. Sukkharak 46930,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Ruea National Park,Sum Tong Cliff,21-Feb-16,1250 m,17.49805556,101.3525,dry dwarf evergreen forest
+267,BU,,S. He & P. Sukkharak 46971,Leucobryum sp.,,Thailand,Loei,Phu Ruea National Park,trail from Parking lot to tS. He summit,21-Feb-16,1340-1375 m,17.50944444,101.3463889,dry evergreen forest
+268,BU,,S. He & P. Sukkharak 46973,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Loei,Phu Ruea National Park,Hin Sam Chan waterfall,21-Feb-16,1175 m,17.50027778,101.3377778,evergreen forest
+269,BU,,S. He & P. Sukkharak 46983,Leucobryum sp.,Leucobryum scalare,Thailand,Loei,Phu Ruea National Park,Hin Sam Chan waterfall,21-Feb-16,1175 m,17.50027778,101.3377778,evergreen forest
+270,BU,,S. He & P. Sukkharak 47012,Leucobryum sp.,,Thailand,Loei,Phu Ruea National Park,"Suan Hin Palace, near Lead Phob waterfall",21-Feb-16,1104 m,17.49944444,101.3363889,evergreen forest
+271,BU,,S. He & P. Sukkharak 47185,Leucobryum sp.,Leucobryum aduncum,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,trail base camp to summit,03-Mar-06,1078 - 1204 m,11.64777778,99.58222222,broadleaf evergreen forest
+272,BU,,S. He & P. Sukkharak 47206,Leucobryum sp.,Leucobryum javense var. javense,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,trail base camp to summit,03-Mar-06,1078 - 1204 m,11.64777778,99.58222222,broadleaf evergreen forest
+273,BU,,S. He & P. Sukkharak 47229,Leucobryum sp.,Leucobryum bowringii,Thailand,Prachuap Khiri Khan,Huai Yang Waterfall National Park,trail base camp to summit,03-Mar-06,1078 - 1204 m,11.64777778,99.58222222,broadleaf evergreen forest
+274,BU,,P. Sukkharak 5128,Leucobryum sp.,Leucobryum scalare,Thailand,Krabi,Khao Ngon Nak National Park,Khao Ngon Nak,23-Aug-17,,,,
+275,BU,,P. Sukkharak 5131,Leucobryum sp.,Leucobryum scalare,Thailand,Krabi,Khao Ngon Nak National Park,Khao Ngon Nak,23-Aug-17,,,,
+276,BU,,P. Sukkharak 5142,Leucobryum sp.,Leucobryum aduncum,Thailand,Krabi,Khao Ngon Nak National Park,Khao Ngon Nak,23-Aug-17,,,,
+277,PSU,B00365,"T. Pócs, S. Chantanaorrapint & G.E. Lee 1209/W",Leucobryum javense var. javense,Leucobryum javense var. javense,Thailand,Nakhon Si Thammarat,Yong Waterfall National Park,"Khao Ramrome, Ron Phibun district",27-Oct-12,ca 935 m,,,mossy montane rainforest
+278,PSU,,"P. Rojchana-umpawan, A. Nilsai, K. Pongnuruk, R. Inyod 20",Leucobryum bowringii,Schistomitrium apiculatum,Thailand,Nakhon Si Thammarat,,Khao Plaidam,18-Jan-14,,,,growing on tree trunk
+279,PSU,,S. Chantanaorrapint & O. Suwanmala 3944,Leucobryum sp.,,Thailand,Phayao,Doi-Luang National Park,????????????????????????,02-Nov-19,897 m,,,growing on tree trunk
+280,PSU,,S. Chantanaorrapint & O. Suwanmala 3945,Leucobryum sp.,Leucobryum scalare,Thailand,Phayao,Doi-Luang National Park,????????????????????????,02-Nov-19,897 m,,,growing on tree trunk
+281,PSU,,S. Chantanaorrapint & O. Suwanmala 3353,Leucobryum sp.,Leucobryum scalare,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,??????????????????,12-Aug-18,829 m,,,base of tree trunk
+282,PSU,,S. Chantanaorrapint & O. Suwanmala 2829,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Nan National Park,??????????????,16-Jan-18,747 m,,,on tree trunk
+283,PSU,,S. Chantanaorrapint & O. Suwanmala 2844,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Nan National Park,??????????????,16-Jan-18,1001 m,,,on tree trunk
+284,PSU,,S. Chantanaorrapint & O. Suwanmala 2896,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Nan National Park,??????????????,16-Jan-18,1303 m,8.876422222,99.69221111,on tree trunk
+285,PSU,,S. Chantanaorrapint & O. Suwanmala 3361,Leucobryum sp.,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,??????????????????,12-Aug-18,829 m,,,base of tree trunk
+286,PSU,,S. Chantanaorrapint & O. Suwanmala 3418,Leucobryum sp.,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,along road side of forest station,16-Aug-18,1503 m,19.36698611,98.83648333,on tree trunk
+287,PSU,,S. Chantanaorrapint & O. Suwanmala 3752,,,Thailand,,,,03-Feb-19,ca 1400 m,,,"on tree trunk, Pine-Oak forest"
+288,PSU,,S. Chantanaorrapint & O. Suwanmala 3306,Leucobryum sp.,,Thailand,Buengkan,Phu Wua Wildlife Sanctuary,,08-Jul-18,325 m,18.23718889,103.9610222,on tree trunk
+289,PSU,,S. Chantanaorrapint & O. Suwanmala 1050,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Phatthalung,Khao Banthat Wildlife Sanctuary,"Khao Loan, Kongra",27-May-17,978 m,,,base of tree trunk
+290,PSU,,S. Chantanaorrapint & O. Suwanmala 946,Leucobryum sp.,,Thailand,Phatthalung,Khao Banthat Wildlife Sanctuary,"Khao Loan, Kongra",27-May-17,813 m,,,terrestrial and hunus
+291,PSU,,S. Chantanaorrapint & O. Suwanmala 3634,Leucobryum sp.,,Thailand,Trat,Mu Ko Chang National Park,??????????????????? ????????,27-Nov-19,,,,rock
+292,PSU,,S. Chantanaorrapint & O. Suwanmala 1502,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, Lansaka",03-Jul-17,1433 m,,,terrestrial
+293,PSU,,S. Chantanaorrapint & O. Suwanmala 958,Leucobryum sp.,,Thailand,Phatthalung,Khao Banthat Wildlife Sanctuary,"Khao Loan, Kongra",27-May-17,859 m,,,on pine tree trunk
+294,PSU,,S. Chantanaorrapint & O. Suwanmala 1501,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, Lansaka",03-Jul-17,1433 m,,,??????
+295,PSU,,S. Chantanaorrapint & O. Suwanmala 1511,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, Lansaka",03-Jul-17,1433 m,,,on rotten wood
+296,PSU,,S. Chantanaorrapint & O. Suwanmala 1561,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, Lansaka",03-Jul-17,1670 m,,,on rotten wood
+297,PSU,,S. Chantanaorrapint & O. Suwanmala 2634,Leucobryum sp.,Leucobryum aduncum,Thailand,Phangnga,Si Phang-Nga National Park,Khao Dan Trail,21-Jan-18,299 m,,,"on rock, ??????"
+298,PSU,,S. Chantanaorrapint & O. Suwanmala 2567,Leucobryum bowringii,Leucobryum bowringii,Thailand,Phangnga,Si Phang-Nga National Park,Khao Dan Trail,20-Jan-18,847 m,,,on rock
+299,PSU,,S. Chantanaorrapint & O. Suwanmala 2589,Leucobryum sp.,,Thailand,Phangnga,Si Phang-Nga National Park,Khao Dan Trail,20-Jan-18,992 m,9.300958333,98.50235556,terrestrial and on tS. He root
+300,PSU,,S. Chantanaorrapint & O. Suwanmala 1315,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, Promkhin",02-Jul-17,724 m,,,on tree trunk
+301,PSU,,,Leucobryum bowringii,,Thailand,Prachuap Khiri Khan,Namtok Huai Yang National Park,,03-Mar-16,1194 m,,,rotten wood
+302,PSU,,S. Chantanaorrapint & O. Suwanmala 875,Leucobryum sp.,,Thailand,Phatthalung,Khao Banthat Wildlife Sanctuary,"Pakrang waterfall, Kongra",26-May-17,226 m,,,on rotten wood
+303,PSU,B02297,O. Suwanmala 98,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phangnga,Khao Lampi-Hat Thai Mueang National Park,Thai Mueang District,10-Oct-15,18 m,8.485872222,98.22811944,on sandy soil
+304,PSU,B00996,Hassama 155,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trang,Khao Banthat Wildlife Sanctuary,Chao Pa waterfall,23-Mar-15,ca 100 m,,,on rotten wood
+305,PSU,B00528,J. Inuthai 266,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chumphon,,La Mae,19-May-07,,,,terrestrail
+306,PSU,B00409,J. Inuthai 134A,Leucobryum aduncum var. aduncum,,Thailand,Loei,Phu Ruea National Park,,04-Mar-07,,,,on rotten logs and tree trunk
+307,PSU,,S. Chantanaorrapint & O. Suwanmala 1323,Leucobryum sp.,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,"Khao Luang, PhromKhiri",02-Jul-17,738 m,8.514905556,99.75716667,on rooten wood
+308,PSU,,S. Chantanaorrapint & O. Suwanmala 2146,Leucobryum sp.,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,??????????????,18-Dec-17,1263 m,,,on tree trunk
+309,PSU,,S. Chantanaorrapint & O. Suwanmala 965,Leucobryum sp.,,Thailand,Phatthalung,Khao Banthat Wildlife Sanctuary,"Khao Loan, Kongra",27-May-17,867 m,,,on rotten wood
+310,PSU,,S. Chantanaorrapint & O. Suwanmala 3421,Leucobryum aduncum var. ?,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,,16-Aug-18,1500 m,,,"terrestrial near base of tree trunk, Pine-Oak forest"
+311,PSU,,S. Chantanaorrapint & O. Suwanmala 3355,Leucobryum aduncum var. ?,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,??????????????????,12-Aug-18,829 m,,,on tree trunk
+312,PSU,,S. Chantanaorrapint & O. Suwanmala 3246,Leucobryum aduncum var. ?,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,??????????????,29-Jun-18,ca. 1150 m,,,"on tree trunk, Pine-Oak forest"
+313,PSU,,S. Chantanaorrapint & O. Suwanmala 3210,Leucobryum aduncum var. ?,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,???????? ????????,28-Jun-18,ca. 800 m,,,on tree trunk
+314,PSU,,S. Chantanaorrapint & O. Suwanmala 3189,Leucobryum aduncum var. ?,,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,????????????????,27-Jun-18,ca. 700 m,,,on tree trunk
+315,PSU,,S. Chantanaorrapint & O. Suwanmala 3948,Leucobryum sp.,Leucobryum scalare,Thailand,Phayao,Doi-Luang National Park,????????????????????????,02-Nov-19,1014 m,,,on tree trunk
+316,PSU,B02299,O. Suwanmala 100,Leucobryum aduncum var. scalare,Leucobryum aduncum,Thailand,Phangnga,Khao Lampi-Hat Thai Mueang National Park,Thai Mueang District,10-Oct-15,18 m,8.485872222,98.22811944,on sandy soil
+317,PSU,B02242,O. Suwanmala 54,Leucobryum aduncum var. scalare,Leucobryum aduncum,Thailand,Phangnga,Khao Lampi-Hat Thai Mueang National Park,Thai Mueang District,10-Oct-15,18 m,8.485872222,98.22811944,on sandy soil
+318,PSU,B00526,J. Inuthai 253,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chumphon,,La Mae,20-May-07,,,,terrestrial and rotten wood
+319,PSU,,"P. Rojchana-umpawan, A. Nilsai, K. Pongnuruk, R. Inyod 22B",Leucobryum sp.,,Thailand,Nakhon Si Thammarat,,Khao Plaidam,18-Jan-14,,,,growing on tree trunk
+320,CMUB,,M. Polboonsri 21,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",15-Apr-06,730 m,,,on tree
+321,CMUB,,M. Polboonsri 81,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",26-Feb-07,730 m,,,on tree
+322,CMUB,,M. Polboonsri 11,Leucobryum aduncum var. scalare,Ochrobryum & Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",22-Apr-06,730 m,,,on tree
+323,CMUB,,M. Polboonsri 52,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",15-Jul-06,730 m,,,on tree
+324,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+325,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+326,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+327,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+328,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+329,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+330,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+331,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+332,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+333,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+334,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+335,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+336,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+337,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+338,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+339,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+340,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+341,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+342,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+343,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+344,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+345,CMUB,,K. Wongkuna  ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Apr-05,,,,
+346,,,,,,,,,,,,,,
+347,CMUB,,N. Printarakul 2649,Leucobryum bowringii,Leucobryum bowringii,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Chom Thong,14-Jan-10,1700 m,,,"on rotten log, shade and moist, evergreen seasonal hardwood forest"
+348,CMUB,,N. Printarakul 4244,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near Sirindhorn observatory,06-Jul-11,897 m,19.3355,99.53852778,on soil
+349,CMUB,,N. Printarakul 2804,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Jaum Thong,17-Jan-10,2300 m,,,on soil
+350,CMUB,,N. Printarakul 6384,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near Wat Phratat Doi Suthep,04-Sep-13,1000 m,,,"on soil, road side"
+351,CMUB,,N. Printarakul 352,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Sirinshorn Observatory,18-Mar-09,850 m,,,"on tree trunk, open and moist, dipterocarp oak forest, granite bedrock"
+352,CMUB,,N. Printarakul 1841,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1333 m,19.36113889,99.51088889,"on rotten trunk, egf"
+353,CMUB,,N. Printarakul P167,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Kog Ma Watershed, Muang",06-Mar-08,1325 m,,,"on logging (rotten trunk) shade, dry, mixed evergreen deciduous dipterocarp-oak forest, granite bedrock"
+354,CMUB,,N. Printarakul 197,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Phuping Palace, Doi Baugh hah",04-Sep-08,1400 m,,,"tree trunk, road side, shade, moist, disturb area, evergreen forest, granite bedrock"
+355,CMUB,,N. Printarakul 241,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Summit of Doi Pui,29-Oct-08,1685 m,,,"tree trunk, rotting trunk, open, dry, seasonal hard wood forest, granit, bedrock"
+356,CMUB,,N. Printarakul 383,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,10/0/2008,ca. 1600 m,,,"tree trunk, egf"
+357,CMUB,,N. Printarakul 433,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+358,CMUB,,N. Printarakul 447,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+359,CMUB,,N. Printarakul 485,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+360,CMUB,,N. Printarakul 503,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+361,CMUB,,N. Printarakul 522,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+362,CMUB,,N. Printarakul 631,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,06-May-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+363,CMUB,,N. Printarakul 779,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,07-May-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+364,CMUB,,N. Printarakul 849,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+365,CMUB,,N. Printarakul 904,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"on soil, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+366,CMUB,,N. Printarakul 924,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+367,CMUB,,N. Printarakul 951,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+368,CMUB,,N. Printarakul 1044,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,14-May-09,1600 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+369,CMUB,,N. Printarakul 1045,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,14-May-09,1600 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+370,CMUB,,N. Printarakul 1182,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+371,CMUB,,N. Printarakul 1184,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+372,CMUB,,N. Printarakul 1185A,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+373,CMUB,,N. Printarakul 1198,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+374,CMUB,,N. Printarakul 1296,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,21-Jun-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+375,CMUB,,N. Printarakul 1307,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,21-Jun-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+376,CMUB,,N. Printarakul 1345,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,21-Jun-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+377,CMUB,,N. Printarakul 1470,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near scene seeing point Doi Pui,28-Jun-09,1584 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+378,CMUB,,N. Printarakul 1547,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,29-Jun-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+379,CMUB,,N. Printarakul 1555,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,12-Jul-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+380,CMUB,,M. Polboonsri 9,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",31-Mar-06,730 m,,,on tree
+381,CMUB,,M. Polboonsri 58,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the way to monthatarn waterfall, muang district",25-Dec-06,730 m,,,on tree
+382,CMUB,,N. Printarakul 1653,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,22-Jul-09,1324 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+383,CMUB,,N. Printarakul 1721,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,20-Jul-09,1263 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+384,CMUB,,N. Printarakul 1788,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,02-Aug-09,1338 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+385,CMUB,,N. Printarakul 1848,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+386,CMUB,,N. Printarakul 1854,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+387,CMUB,,N. Printarakul 1727,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,26-Aug-09,1263 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+388,CMUB,,N. Printarakul 1862,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+389,CMUB,,N. Printarakul 1869,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+390,CMUB,,N. Printarakul 1876,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+391,CMUB,,N. Printarakul 1883,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+392,CMUB,,N. Printarakul 1886,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay-Kog Ma,10-Aug-09,1350 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+393,CMUB,,N. Printarakul 2561,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,06-Nov-09,1600 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+394,CMUB,,N. Printarakul 3583,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Mon Thathan Waterfalls, 3rd floor",26-Feb-11,822 m,19.37008333,99.53944444,on rotten trunk
+395,CMUB,,N. Printarakul 4277,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,1st floor of Monthatarn Waterfall,27-Jul-11,684 m,19.37136111,99.54641667,"on rotten trunk, mxf"
+396,CMUB,,N. Printarakul 5475,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay Kaew,20-Aug-12,413 m,19.35377778,99.57719444,"on trunk base, dof"
+397,CMUB,,N. Printarakul 3039,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near Suthep Temple,17-Oct-10,1000 m,19.31666667,99.53333333,"on soil, road side"
+398,CMUB,,N. Printarakul 5384,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,22-Feb-12,950 m,19.31666667,99.53333333,"on soil, mxf"
+399,CMUB,,N. Printarakul 5390,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near Suthep Temple,22-Feb-12,1000 m,19.31666667,99.53333333,"on soil, road side"
+400,CMUB,,N. Printarakul 4243,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,Doi Suthep-Pui National Park,near Sirindhorn observatory,06-Jul-11,897 m,19.3355,99.53852778,on soil
+401,,,,,,,,,,,,,,
+402,CMUB,,Kamolchanol Umnadkitikorn,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,28-Aug-09,1600 m,,,"on soil, egf"
+403,CMUB,,N. Printarakul 489,Leucobryum bowringii,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,29-Apr-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+404,CMUB,,N. Printarakul 597,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,06-May-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+405,CMUB,,N. Printarakul 632,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,06-May-09,1685 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+406,CMUB,,N. Printarakul 878,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+407,CMUB,,N. Printarakul 891,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+408,CMUB,,N. Printarakul 905,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,13-May-09,1650 m,,,"tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granit bedrock"
+409,CMUB,,J.F. Maxwell B-192,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Mae Hong Son,,above and west of Nong Khao Klang (Karen) village; Huay Bu Ling subdistrict,29-Oct-07,1150 m,,,"on tree trunk, partly open area in fire-daraged, degraded, primary, evergreen, seasonal hardwood + pine forest; sandstone bedrock"
+410,CMUB,,J.F. Maxwell B-228,Leucobryum aduncum var. scalare,Leucobryum scalare,China,Yunnan,,"Manlin village, Xiangming Township",09-Jul-12,1325 m,,,"densely covering a tree trunk, partly open area in a tea pllantation; evergreen, seasonal, hardwood forested area; shale bedrock"
+411,CMUB,,J.F. Maxwell B-199,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Rai,,"Doi Bah Sahng Soong, south side, above Bah Sahng Soong (Akha) village, c. 1.5 km north of the village; Teut Tai Subdistrict",24-Jan-09,1225 m,,,partly shaded area on a tree trunk; degraded evergreen hardwood + bamboo forest; shale bedrock
+412,CMUB,,N. Printarakul 25,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay Kaew,19-May-06,,,,on soil
+413,CMUB,,N. Printarakul 10,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,Ban Mae Gumpong,12-Dec-05,,,,on tree
+414,CMUB,,"Somai, Kanya & Pen 216",Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang district,16-Nov-66,1290 m,,,"on base  of tree trunk, w-facing"
+415,CMUB,,"S. Rattanayan, K. Santanachote, L.T. Ellis 103",Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang district,16-Nov-66,1685 m,,,on tree trunk
+416,CMUB,,"Somai, Kanya & Students 478",Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Chom Thong,04-Dec-99,1290 m,,,on base of tree trunk
+417,CMUB,,"S. Rattanayan, K. Santanachote, L.T. Ellis 136",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,16-Nov-66,1685 m,,,on tree trunk
+418,CMUB,,"Somai, Kanya & Students 475",Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,01-Dec-99,1550 m,,,on tree trunk
+419,CMUB,,"Somai, Kanya & Pen 217",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang district,27-Nov-66,1360 m,,,on base  of tree trunk
+420,CMUB,,S. Kornochalert 397,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-Jun-04,1600 m,,,on bark of Quercus vestita
+421,CMUB,,S. Kornochalert 402,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-Oct-04,1600 m,,,on bark of Vaccinium sprengelii
+422,CMUB,,S. Kornochalert 400,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-Oct-04,1600 m,,,on bark of Vaccinium sprengelii
+423,CMUB,,S. Kornochalert 401,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,30-Oct-04,1600 m,,,on bark of Heliciopsis terminalis
+424,CMUB,,"Somjai, Kanya & Pen 259",Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Research station of Doi Pui,14-Oct-98,1360 m,,,on bark
+425,CMUB,,N. Printarakul 3002,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,Doi Inthanon,21-Jan-10,1500 m,,,on base of tree trunk
+426,CMUB,,N. Printarakul 6092,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Sri Sangwan,11-Jan-13,713 m,19.33772222,99.45577778,on log
+427,CMUB,,N. Printarakul 5575,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Mon Long,06-Nov-12,1427 m,19.543,99.565,on tree trunk
+428,CMUB,,N. Printarakul 1319,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang district,21-Jun-09,1650 m,,,"on tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granite bedrock"
+429,CMUB,,N. Printarakul 5095,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,23-Nov-11,1680 m,19.38794444,99.48791667,on trunk
+430,CMUB,,N. Printarakul 1352,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang district,21-Jun-09,1650 m,,,"on tree trunk, shade, moist, evergreen seasonal hardwood with pine forest, granite bedrock"
+431,CMUB,,N. Printarakul 3086,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Sirinshorn Observatory,12-Nov-10,813 m,,,"on tree trunk, shade, moist, mixed evergreen and deciduous, seasonal hardwood with pine forest, granite bedrock"
+432,CMUB,,N. Printarakul 3093,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Sirinshorn Observatory,12-Nov-10,813 m,,,"on tree trunk, shade, moist, mixed evergreen and deciduous, seasonal hardwood with pine forest, granite bedrock"
+433,CMUB,,N. Printarakul 5389,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,San Ku,22-Feb-12,1500 m,19.35,99.48333333,"on soil, road side"
+434,CMUB,,K. Wongkuna  562,Leucobryum sanctum,Leucobryum sanctum,Thailand,Ranong,Namtok Ngao National Park,,09-Sep-07,61 m,,,wet rock
+435,CMUB,,N. Printarakul 3379,Leucobryum aduncum var. aduncum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Sirinshorn Observatory,20-Dec-10,835 m,,,"on tree trunk, shade, moist, mixed evergreen and deciduous, seasonal hardwood with pine forest, granite bedrock"
+436,CMUB,33040,M.F. Maxwell B-206,Leucobryum aduncum var. ?,,Thailand,Chiang Rai,,"Doi Mae Salong, south side, Bah Kah Sook Jai (Akha) village; Mae Salong Nawk Subdistrict",18-Jun-10,1125 m,,,"shaded place, on a rotting, fallen tree trunk in degraded, regenerating, primary, evergreen, seasonal, hardwood forest; granite bedrock"
+437,CMUB,34544,M.F. Maxwell B-218,Leucobryum/Ochobryum,,Laos,Attapeu,,"Sanam Sai, Haht Ngao Village",01-Jun-11,40 m,,,"densely covering a rotting log, mostly shaded, fire-damaged, degraded, deciduous seasonal, hardwood forest lacking bamboo; sandstone bedrock"
+438,CMUB,33041,M.F. Maxwell B-205,Leucobryum aduncum var. ?,,Thailand,Chiang Rai,,"Eoi Dong Nai, south side, above Bohng Cry Village; Bohng Yaeng Subdistrict",09-Jun-10,1075 m,,,"shaded place, on a large tree trunk, primary, evergreen, seasonal, hardwood forest; upper watercatchment stream valley; metamorphic sandstone bedrock"
+439,CMUB,33553,M.F. Maxwell B-214,Leucobryum aduncum var. aduncum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"near the base of the east side, Chang Kian Valley, adjacent to Nong Haw Stream",18-Nov-10,525 m,,,"densely covering a fallen and rotting tree trunk, shaded place near the stream; deciduous, dipterocarp-oak, seasonal, hardwood forest; granite bedrock"
+440,CMUB,,Kanjana Vongkuna 28,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay Kog Ma,16-Mar-03,1341 m,,,on bark
+441,CMUB,,"Kanya, Kanjana, Soonthree & Sudchit 1",Leucobryum sp.,,Thailand,Chiang Mai,,?????????????????????????????,18-Jul-05,900 m,,,???????????????
+442,CMUB,,Sudchit Manachit 20,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay Kog Ma,04-Oct-04,1300 m,,,"on soil, road side"
+443,CMUB,,Sudchit Manachit 14,Leucobryum sp.,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huay Kog Ma,27-Aug-04,1270 m,,,"on soil, road side"
+444,CMUB,,S. Kornochalert 767,Leucobryum sp.,,Thailand,Loei,Phu Luang Wildlife Sanctury,?????????????,26-Nov-08,1425 m,,,on bark
+445,CMUB,,,Leucobryum javense var. ?,,Indonesia,Bogor,,"way to Hot Spring, Gunung Gede CBG, Cibodas Botanic Garden",06-Sep-03,,,,on Tristania laurina
+446,CMUB,,,Leucobryum sp.,,Indonesia,Bogor,,"way to Hot Spring, Gunung Gede CBG, Cibodas Botanic Garden",07-Sep-03,,,,
+447,CMUB,,,Leucobryum sp.,,Indonesia,Bogor,,"way to Hot Spring, Gunung Gede CBG, Cibodas Botanic Garden",07-Sep-03,,,,on rotten log
+448,CMUB,37103,Y. Peou et R. Yim 43,Leucobryum aduncum var. scalare,Leucobryum scalare,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,641 m,,,on the tree along the stream of semi-evergreen forest
+449,CMUB,37104,Y. Peou et R. Yim 05,Leucobryum aduncum var. scalare,Leucobryum scalare,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,614 m,,,on the rock along the stream of semi-evergreen forest
+450,CMUB,37105,Y. Peou et R. Yim 13,Leucobryum bowringii,Leucobryum bowringii,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,161 m,,,on the rock along the stream of semi-evergreen forest
+451,CMUB,37106,Y. Peou et R. Yim 06,Leucobryum bowringii,Leucobryum bowringii,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,614 m,,,on the rock along the stream of semi-evergreen forest
+452,CMUB,37107,Y. Peou et R. Yim 27,Leucobryum javense var. ?,,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,644 m,,,on the rock along the stream of semi-evergreen forest
+453,CMUB,37108,Y. Peou et R. Yim 07,Leucobryum javense var. ?,,Cambodia,Kompong Spen,Kirirom National Park,,05-May-12,623 m,,,on the rock along the stream of semi-evergreen forest
+454,CMUB,,K. Santanachote,Leucobryum sp.,,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,25-Oct-79,,,,on rock
+455,CMUB,,"Samjai, Kanya & Pen 231",Leucobryum candidum,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,14-Oct-98,1360 m,,,tree trunk
+456,CMUB,,K. Saito,Leucobryum neilgherrense,Leucobryum juniperoideum,Japan,,,,18-Feb-71,,,,
+457,CMUB,,K. Santanachote,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui,,,,,on Oak tree
+458,CMUB,,,Leucobryum pulchrum,Leucobryum sumatranum,Malaya,,,,16-Oct-66,,,,
+459,H,,Schmidt s.n.,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+460,BKF,,Sangkhachand 375,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,190 m,,,
+461,PC,,Sangkhachand 375,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,190 m,,,
+462,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1827",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,,,,,,,
+463,MO,,"K. Larsen, T. Smitinand & E. Warncke 1827",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,,,,,,,
+464,AAU,,"K. Larsen, I. Nielsen & T. Santisuk 32395",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,,,,,,,
+465,MO,,"K. Larsen, I. Nielsen & T. Santisuk 32395",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Trat,,,,,,,
+466,BM,,A.F.G. Kerr 249,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Si Thammarat,,Ta Samet,27-Jan-28,20 m,,,on sandy ground
+467,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4008",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Narathiwat,,,,,,,
+468,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4008",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Narathiwat,,,,,,,
+469,AAU,,"K. Larsen, T. Santisuk & E. Warncke 1967",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+470,AAU,,"K. Larsen, T. Santisuk & E. Warncke 2068",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+471,AAU,,"K. Larsen, T. Santisuk & E. Warncke 2910",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+472,AAU,,"K. Larsen, T. Santisuk & E. Warncke 3102a",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+473,MO,,"K. Larsen, T. Santisuk & E. Warncke 1967",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+474,MO,,"K. Larsen, T. Santisuk & E. Warncke 2068",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+475,MO,,"K. Larsen, T. Santisuk & E. Warncke 2910",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+476,MO,,"K. Larsen, T. Santisuk & E. Warncke 3102a",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chiang Mai,,,,,,,
+477,PC,,P. Tixier s.n.,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phetchabun,,,,,,,
+478,AAU,,"K. Larsen, I. Nielsen & T. Santisuk 30708",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phangnga,,,,,,,
+479,AAU,,"K. Larsen, I. Nielsen & T. Santisuk 30815",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phangnga,,,,,,,
+480,MO,,"K. Larsen, I. Nielsen & T. Santisuk 30708",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phangnga,,,,,,,
+481,MO,,"K. Larsen, I. Nielsen & T. Santisuk 30815",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Phangnga,,,,,,,
+482,PC,,P. Tixier 3965,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Ranong,,,18-Sep-68,,,,on sunny trunks
+483,BM,,A.F.G. Kerr 248,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Satun,Tarutao National Park,Adang,16-Jan-28,,,,on rock
+484,AAU,,"K. Larsen, T. Smitinand & E. Warncke 183",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Nayok,,,,,,,
+485,AAU,,"K. Larsen, T. Smitinand & E. Warncke 354",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Nayok,,,,,,,
+486,MO,,"K. Larsen, T. Smitinand & E. Warncke 183",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Nayok,,,,,,,
+487,MO,,"K. Larsen, T. Smitinand & E. Warncke 354",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Nayok,,,,,,,
+488,AAU,,"K. Larsen, T. Santisuk & E. Warncke 3212",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Ratchasima,,,,,,,
+489,MO,,"K. Larsen, T. Santisuk & E. Warncke 3212",Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Nakhon Ratchasima,,,,,,,
+490,BM,,A.F.G. Kerr 330,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chumphon,,Ko Tao,23-Sep-23,,,,
+491,BM,,A.F.G. Kerr 351,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chumphon,,Ko Tao,,,,,
+492,BM,,A.F.G. Kerr 172,Leucobryum aduncum var. aduncum,Leucobryum aduncum,Thailand,Chumphon,,"Ko Tao, Chumpawan, Ta Ngaw",21-Jan-27,ca. 300 m,,,on stone in evergreen forest
+493,C,,s.n. 7850,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Trat,Mu Ko Chang National Park,Koh Kut,,,,,giant form
+494,AAU,,"K. Larsen, I. Nielsen & T. Santisuk 32052",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,Khao Khitchakut National Park,K. Kao Kichakut,26-Aug-72,150 m,12.86666667,102.1666667,
+495,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1695",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,,,,,,,
+496,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1810",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,,,,,,,
+497,MO,,"K. Larsen, I. Nielsen & T. Santisuk 32052",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,Khao Khitchakut National Park,K. Kao Kichakut,26-Aug-72,150 m,12.86666667,102.1666667,
+498,MO,,"K. Larsen, T. Smitinand & E. Warncke 1695",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,,,,,,,
+499,MO,,"K. Larsen, T. Smitinand & E. Warncke 1810",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chanthaburi,,,,,,,
+500,BKF,,Bunnak 375,Leucobryum aduncum var. scalare,,Thailand,Trat,Mu Ko Chang National Park,Khao Nang Aen,20-Mar-55,190 m,,,on decaying log in moist
+501,US,,Bunnak 375,Leucobryum aduncum var. scalare,,Thailand,Trat,Mu Ko Chang National Park,Khao Nang Aen,20-Mar-55,190 m,,,on decaying log in moist
+502,C,,Sorensen et al. 6728,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Trat,,"Plain of Makam, near Chantaburi",,50-100 m,,,in dry diciduous forest
+503,C,,Sorensen et al. 6777,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Trat,,"Plain of Makam, near Chantaburi",,50-100 m,,,in dry diciduous forest
+504,C,,Sorensen et al. 6793 ,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Trat,,"Plain of Makam, near Chantaburi",,50-100 m,,,in dry diciduous forest
+505,MO,,A. Touw 8301,Leucobryum aduncum var. scalare,,Thailand,Tak,,"Nakhon Sawan; along road Doi Musae-Mae Sod, 12 km from Doi Musae",21-Nov-65,700 m,16.66666667,98.91666667,humid evergreen forest along road; on tree trunk
+506,MO,,A. Touw 9453,Leucobryum aduncum var. scalare,,Thailand,Tak,Doi Inthanon National Park,near Karen village of Sop Aep,14-Dec-65,700 m,18.5,98.58333333,narrow fringe of rather dry evergreen forest along Mae Hoi River near Sop Aep; on tree trunks
+507,MO,,A. Touw 11476,Leucobryum aduncum var. scalare,,Thailand,Nakhon Si Thammarat,Khao Luang National Park,granitic massive Khao (Mt.) Luang,03-Feb-66,600 m,8.75,99.75,evergreen forest near camp I; on fallen logs
+508,MO,,A. Touw 11483,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Nakhon Si Thammarat,,,03-Feb-66,,,,
+509,BM,"BM000866895, BM000866900",A.F.G. Kerr 8,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,06-Sep-14,1500 m,,,
+510,BM,,Smith 584,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Khun Chae National Park,Kun Tan,5/00/1933,1200 m,,,
+511,BO,,Richards 5476,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Chiang Dao Wildlife Sanctuary,,08-Dec-57,1220 m,,,on tree trunks and rotten logs
+512,BO,,Richards 5500,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Dec-57,1680 m,,,
+513,HIRO,,Ogawa 67961,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+514,HIRO,,Ogawa 68006,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+515,HIRO,,Ogawa 68007,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+516,HIRO,,Ogawa 68046a,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000-1300 m,,,evergreen forest
+517,HIRO,,Yoda 67968,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+518,HIRO,,Yoda 67992,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+519,HIRO,,Yoda 68004,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000 m,,,evergreen forest
+520,HIRO,,Yoda 68025,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000-1300 m,,,evergreen forest
+521,HIRO,,Yoda 68035,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Suthep,12-Feb-58,1000-1300 m,,,evergreen forest
+522,HIRO,,Yoda & Ogawa 67204,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,,08-Jan-58,1300 m,,,evergreen forest
+523,HIRO,,Yoda & Ogawa 67205,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,,08-Jan-58,1300 m,,,evergreen forest
+524,BKF,,Robbins 3564,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Inthanon National Park,valley of Phra Mawn,28-Oct-62,1128 m,,,grove of pine trees
+525,BKF,,Robbins 3648,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,,,1524 m,,,Dry Evergreen Forest
+526,PC,,Robbins 3564,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Inthanon National Park,valley of Phra Mawn,28-Oct-62,1128 m,,,grove of pine trees
+527,PC,,Robbins 3648,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,,,1524 m,,,Dry Evergreen Forest
+528,PC,,P. Tixier s.n.,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,,,,,,
+529,C,,Sorensen et al. 5762,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,,,1000 m,,,on tree trunk by small stream in evergreen forest
+530,C,,Sorensen et al. 6758,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,"Thalae Song Hong, near Trang",,,,,in evergreen forest
+531,C,,Hansen et al. 11410,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,Kawng San,,1500 m,,,
+532,C,,Hansen et al. 11449,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,"west of Bo Luang, at 5 km",,1150 m,,,epiphytic on the lower part of tree trunk
+533,MO,,"K. Larsen, T. Santisuk & E. Warncke 2826",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Chiang Mai,,,,,,,
+534,MO,,A. Touw 8801,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,"Doi (Mt.) Suthep, granitic massive W of Chiengmai",30-Nov-65,1550-1600 m,18.83333333,98.91666667,Summit region of Doi Buak Ha; evergreen forest on E. slope; on tree trunks and branches
+535,MO,,A. Touw 10291,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,,,,,,,
+536,MO,,A. Touw 10293,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen villages of Pha Mon and Sop Aep.,21-Dec-65,1150 m,18.58333333,98.5,hill evergreen forest rich in Pinus kharya; on tree trunks
+537,C,,Hansen et al. 11543b,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Phetchabun,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Miang,,,,,on rock
+538,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1041",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Phetchabun,,,,,,,
+539,MO,,"K. Larsen, T. Smitinand & E. Warncke 1041",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Phetchabun,,,,,,,
+540,AAU,,"K. Larsen, T. Smitinand & E. Warncke 696",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Phitsanulok,,,,,,,
+541,MO,,"K. Larsen, T. Smitinand & E. Warncke 905",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Phitsanulok,,,,,,,
+542,C,,Hansen et al. 11677,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Nakhon Nayok,Khao Yai National Park,Khao Yai,,800 m,,,giant form
+543,MO,,"K. Larsen, T. Smitinand & E. Warncke 351",Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Nakhon Nayok,,,,,,,
+544,BKF,,Robbins 3686,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khio,19-Nov-62,1158 m,,,Lower Montane forest
+545,PC,,Robbins 3686,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khio,19-Nov-62,1158 m,,,Lower Montane forest
+546,PC,,P. Tixier s.n.,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Surat Thani,,,,,,,
+547,BM,"BM000866896, BM000866899",A.F.G. Kerr 84,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,3/00/1924,1200 m,,,on tree in evergreen forest
+548,BM,"BM000866897, BM000866898",A.F.G. Kerr 102,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,?????,3/00/1924,1000 m,,,on tree in evergreen forest
+549,BM,,A.F.G. Kerr 567,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,11-Feb-31,1200 m,,,on tree trunk in open forest
+550,BKF,,T. Smitinand 1112,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,Tham Saw,,1300 m,,,on bark of oak tree in oak and pine forest
+551,PC,,T. Smitinand 1112,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,Tham Saw,,1300 m,,,on bark of oak tree in oak and pine forest
+552,US,,T. Smitinand 1112,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,Tham Saw,,1300 m,,,on bark of oak tree in oak and pine forest
+553,US,,T. Smitinand 2001,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,Tham Saw,,1300 m,,,on bark of oak tree in oak and pine forest
+554,C,,Sorensen 6418,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,,1300 m,,,in open grassy pine forest
+555,C,,Floto 7532,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,Phu Kradueng National Park,,,1300 m,,,in open grassy pine forest
+556,MO,,A. Touw 10375,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,07-Jan-66,,,,
+557,MO,,A. Touw 10404,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,07-Jan-66,,,,
+558,MO,,A. Touw 10416,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,07-Jan-66,,,,
+559,MO,,A. Touw 10546,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,,,,,
+560,MO,,A. Touw 10577,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,,,,,
+561,MO,,A. Touw 10733,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,,,,,
+562,MO,,A. Touw 10883,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,14-Jan-66,,,,
+563,MO,,A. Touw 10901,Leucobryum aduncum var. scalare,Leucobryum scalare,Thailand,Loei,,,14-Jan-66,,,,
+564,H,,Schmidt s.n.,Leucobryum bowringii,Leucobryum bowringii,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+565,MO,,A. Touw 11557,Leucobryum bowringii,,Thailand,Nakhon Si Thammarat,,,,,,,
+566,MO,,A. Touw 11664,Leucobryum bowringii,,Thailand,Nakhon Si Thammarat,,,,,,,
+567,PC,,P. Tixier s.n.,Leucobryum bowringii,Leucobryum bowringii,Thailand,Chiang Mai,,,,,,,
+568,MO,,A. Touw 10298,Leucobryum bowringii,,Thailand,Chiang Mai,,,,,,,
+569,C,,Hansen et al. 11549b,Leucobryum bowringii,Leucobryum bowringii,Thailand,Phetchabun,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Miang,,1250 m,,,
+570,PC,,P. Tixier s.n.,Leucobryum bowringii,Leucobryum bowringii,Thailand,Phitsanulok,,,,,,,
+571,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4262",Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+572,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4321 ",Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+573,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4262",Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+574,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4321 ",Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+575,MO,,A. Touw 12102,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+576,MO,,A. Touw 12146,Leucobryum bowringii,Leucobryum bowringii,Thailand,Nakhon Nayok,,,,,,,
+577,PC,,P. Tixier 3905,Leucobryum bowringii,Leucobryum bowringii,Thailand,Ranong,,,18-Sep-68,,,,on trunk
+578,PC,,P. Tixier s.n.,Leucobryum bowringii,Leucobryum bowringii,Thailand,Surat Thani,,,,,,,
+579,PC,,T. Smitinand 2001,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,,1300 m,,,on tree trunk in Oak forest
+580,BKF,,T. Smitinand 2001,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,,1300 m,,,on tree trunk in Oak forest
+581,C,,Floto 7399b,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,,1300 m,,,by a small stream in evergreen forest
+582,MO,,A. Touw 10447,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+583,MO,,A. Touw 10473,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+584,MO,,A. Touw 10506,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+585,MO,,A. Touw 10556,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+586,MO,,A. Touw 10636,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+587,MO,,A. Touw 10693,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+588,MO,,A. Touw 10736,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+589,MO,,A. Touw 10876,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+590,MO,,A. Touw 11074,Leucobryum bowringii,Leucobryum bowringii,Thailand,Loei,,,,,,,
+591,L,,A. Touw 8421,Leucobryum chlorophyllosum,,Thailand,Chiang Mai,,,,,,,
+592,MO,,A. Touw 8421,Leucobryum chlorophyllosum,,Thailand,Chiang Mai,,,,,,,
+593,L,,s.n. 8795,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Chiang Mai,,,,,,,
+594,L,,A. Touw 11569,Leucobryum chlorophyllosum,,Thailand,Nakhon Si Thammarat,,,,,,,
+595,MO,,A. Touw 11569,Leucobryum chlorophyllosum,,Thailand,Nakhon Si Thammarat,,,,,,,
+596,L,,s.n. 11972,Leucobryum chlorophyllosum,Leucobryum chlorophyllosum,Thailand,Nakhon Si Thammarat,,,,,,,
+597,H,,Hosseus s.n. ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Chiang Mai,,,,,,,
+598,BKF,,Robbins 3567 ,Leucobryum javense var. ?,,Thailand,Chiang Mai,Doi Inthanon National Park,"Doi Inthanon, near valley of Pha Mawm",28-Oct-62,792 m,,,"epixylic, evergreen gallery forest"
+599,PC,,Robbins 3567 ,Leucobryum javense var. ?,,Thailand,Chiang Mai,Doi Inthanon National Park,"Doi Inthanon, near valley of Pha Mawm",28-Oct-62,792 m,,,"epixylic, evergreen gallery forest"
+600,L,,A. Touw 10297 ,Leucobryum javense var. ?,,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen viliages of Pha Mon and Sop Aep,21-Dec-65,850 m,18.58333333,98.5,narrow fringe of evergreen forest along Mae Hoi River; on decaying log
+601,MO,,A. Touw 10297 ,Leucobryum javense var. ?,,Thailand,Chiang Mai,Doi Inthanon National Park,between the Karen viliages of Pha Mon and Sop Aep,21-Dec-65,850 m,18.58333333,98.5,narrow fringe of evergreen forest along Mae Hoi River; on decaying log
+602,BKF,,T. Smitinand 3228 ,Leucobryum javense var. ?,,Thailand,Chon Buri,Khao Soi Dao Wildlife Sanctuary,"Pong Namrawn, Khao Soidao",09-Mar-52,1300 m,,,on earth in Hill evergreen forest
+603,PC,,T. Smitinand 3228 ,Leucobryum javense var. ?,,Thailand,Chon Buri,Khao Soi Dao Wildlife Sanctuary,"Pong Namrawn, Khao Soidao",09-Mar-52,1300 m,,,on earth in Hill evergreen forest
+604,L,,A. Touw 12051 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+605,MO,,A. Touw 12051 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+606,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4326",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+607,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4338 ",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+608,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4326",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+609,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4338 ",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Nayok,,,,,,,
+610,BKF,,T. Smitinand 8409 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khio,11-Nov-63,1400 m,,,on tree
+611,US,,T. Smitinand 8409 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Nakhon Ratchasima,Khao Yai National Park,Khao Khio,11-Nov-63,1400 m,,,on tree
+612,BKF,,T. Smitinand 1109,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+613,BKF,,T. Smitinand 3107,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+614,BKF,,T. Smitinand 4947 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,,24-Nov-58,1300 m,,,
+615,PC,,T. Smitinand 1109,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,"Phu Kradueng, Tham Saw",09-Mar-52,1300 m,,,"on dry rocks by stream, along edge of pine forest"
+616,PC,,T. Smitinand 3107,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Than Sawan,29-Oct-55,1200 m,,,
+617,PC,,T. Smitinand 4947 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+618,BKF,,T. Smitinand 1104 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Tham Saw,03-Sep-52,1300 m,,,on dry rock by stream along edge of pine forest
+619,US,,T. Smitinand 1104 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Tham Saw,03-Sep-52,1300 m,,,on dry rock by stream along edge of pine forest
+620,C,,Sorensen et al 6415 ,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,,,1300 m,,,in open grassy pine forest
+621,L,,A. Touw 10617,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+622,L,,A. Touw 10691,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+623,L,,A. Touw 10877,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+624,L,,A. Touw 10897,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+625,L,,A. Touw 11000,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,15-Jan-66,,,,
+626,L,,A. Touw 11007,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+627,MO,,A. Touw 10617,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+628,MO,,A. Touw 10691,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+629,MO,,A. Touw 10877,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+630,MO,,A. Touw 10897,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+631,MO,,A. Touw 11000,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,15-Jan-66,,,,
+632,MO,,A. Touw 11007,Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,14-Jan-66,,16.88333333,101.75,
+633,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4770 ",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+634,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4770 ",Leucobryum javense var. ?,Leucobryum javense var. javense,Thailand,Loei,,,,,,,
+635,C,,Sorensen et al. 6783 ,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chanthaburi,,"plain of Makam, near Chantaburi",,50-100 m,,,in dry Dipterocarp forest
+636,HIRO,,Yoda 67673,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,09-Jan-58,2550 m,,,"mosst forest, on trunk"
+637,HIRO,,Yoda 67747,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,09-Jan-58,2550 m,,,"mosst forest, on trunk"
+638,HIRO,,Yoda 67748,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,09-Jan-58,2550 m,,,"mosst forest, on trunk"
+639,HIRO,,Yoda 67798,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Inthanon National Park,,09-Jan-58,2550 m,,,"mosst forest, on trunk"
+640,HIRO,,Yoda 67969,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,Doi Suthep-Pui National Park,,12-Feb-58,700-1000 m,,,evergreen forest
+641,L,,A. Touw 8518,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+642,L,,A. Touw 8738,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+643,L,,A. Touw 9109,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+644,L,,A. Touw 9670,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+645,MO,,A. Touw 8518,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+646,MO,,A. Touw 8738,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+647,MO,,A. Touw 9109,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+648,MO,,A. Touw 9670,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chiang Mai,,,,,,,
+649,AAU,,"K. Larsen, T. Smitinand & E. Warncke 872 ",Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Phitsanulok,,,,,,,
+650,MO,,"K. Larsen, T. Smitinand & E. Warncke 872 ",Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Phitsanulok,,,,,,,
+651,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1491 ",Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chumphon,,,,,,,
+652,MO,,"K. Larsen, T. Smitinand & E. Warncke 1491 ",Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Chumphon,,,,,,,
+653,BKF,,T. Smitinand 3144 ,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Loei,Phu Kradueng National Park,,30-Oct-55,1300 m,,,
+654,PC,,T. Smitinand 3144 ,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Loei,Phu Kradueng National Park,,30-Oct-55,1300 m,,,
+655,L,,A. Touw 10904 ,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Loei,,,,,,,
+656,MO,,A. Touw 10904 ,Leucobryum juniperoideum,Leucobryum juniperoideum,Thailand,Loei,,,,,,,
+657,BM,,A.F.G. Kerr 109,Leucobryum sanctum,Leucobryum sanctum,Thailand,Chanthaburi,Mu Ko Chang National Park,Kao Sabap,05-Dec-24,,,,on tree trunk
+658,BM,,Rock 216 ,Leucobryum sanctum,Leucobryum sanctum,Thailand,Chanthaburi,,,,,,,
+659,AAU,,"K. Larsen, I. Nielsen & T. Santisuk 32029 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Chanthaburi,,,,,,,
+660,MO,,"K. Larsen, I. Nielsen & T. Santisuk 32029 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Chanthaburi,,,,,,,
+661,H,,Schmidt s.n. ,Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,Mu Ko Chang National Park,Koh Chang,,,,,
+662,PC,,P. Tixier s.n. ,Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,,,,,,,
+663,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 5088",Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,,,,,,,
+664,AAU,,"K. Larsen, T. Smitinand & E. Warncke 1826 ",Leucobryum sanctum,,Thailand,Trat,,,,,,,
+665,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 5088",Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,,,,,,,
+666,MO,,"K. Larsen, T. Smitinand & E. Warncke 1826 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Trat,,,,,,,
+667,L,,A. Touw 11716,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,,,,,,,
+668,L,,A. Touw 11860 ,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,,,,,,,
+669,MO,,A. Touw 11716,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,,,,,,,
+670,MO,,A. Touw 11860 ,Leucobryum sanctum,,Thailand,Nakhon Si Thammarat,,,,,,,
+671,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4019 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Narathiwat,,,,,,,
+672,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4019 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Narathiwat,,,,,,,
+673,AAU,,"Ch. Charoenphol, K. Larsen & E. Warncke 4174 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Yala,,,,,,,
+674,MO,,"Ch. Charoenphol, K. Larsen & E. Warncke 4174 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Yala,,,,,,,
+675,L,,A. Touw 11421 ,Leucobryum sanctum,Leucobryum sanctum,Thailand,Nakhon Nayok,,,,,,,
+676,MO,,A. Touw 11421 ,Leucobryum sanctum,Leucobryum sanctum,Thailand,Nakhon Nayok,,,,,,,
+677,AAU,,"K. Larsen, T. Santisuk & E. Warncke 3209 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Nakhon Ratchasima,,,09-Aug-68,,,,
+678,MO,,"K. Larsen, T. Santisuk & E. Warncke 3209 ",Leucobryum sanctum,Leucobryum sanctum,Thailand,Nakhon Ratchasima,,,09-Aug-68,,,,
+679,BM,,A.F.G. Kerr 498b,Leucobryum scabrum,Leucobryum scabrum,Thailand,Phangnga,,Kao Katakwan,09-Mar-30,900 m,,,on trees in evergreen forest
+680,BM,,A.F.G. Kerr 460,Leucobryum sericeum,Leucobryum sericeum,Thailand,Surat Thani,Nong Thung Thong Wildlife Sanctuary,Kiensa,19-Feb-30,50 m,,,on log in evergreen forest
+681,BKF,,T. Smitinand 1098,Leucobryum sericeum,Leucobryum sericeum,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,08-Mar-52,1300 m,,,on root of tree in Hill evergreen forest
+682,PC,,T. Smitinand 1098,Leucobryum sericeum,Leucobryum sericeum,Thailand,Loei,Phu Kradueng National Park,Phu Kradueng,08-Mar-52,1300 m,,,on root of tree in Hill evergreen forest
+683,AAU,,"Larsen, K. & Warncke, E. 73",Leucobryum sanctum,Leucobryum sanctum,Thailand,Prachin Buri,Khao Yai National Park,Khao Kheo Sphagnum bog,07-Jul-66,1350 m,,,
+684,AAU,,"K. Larsen, T. Smitinand & E. Warncke 351",Leucobryum sp.,,Thailand,Prachin Buri,Khao Yai National Park,on wet soil along side of track through the forest,12-Jul-66,800 m,,,On tree in shadow
+685,AAU,,"K. Larsen, T. Smitinand & E. Warncke 528",Leucobryum scalare,Leucobryum scalare,Thailand,Phitsanulok,Thung Salaeng Luang National Park,Thung Salaeng Luang.,19-Jul-66,600 m,,,Evergreen forest
+686,AAU,,"K. Larsen, T. Smitinand & E. Warncke 622",Leucobryum sp.,,Thailand,Phitsanulok,Thung Salaeng Luang National Park,Thung Salaeng Luang.,20-Jul-66,550 m,,,On wet rocks in shadow
+687,AAU,,"K. Larsen, T. Smitinand & E. Warncke 696",Leucobryum sp.,,Thailand,Phitsanulok,Thung Salaeng Luang National Park,Thung Salaeng Luang.,21-Jul-66,700 m,,,"On burnt area in Diptetocarp and Pinusmercusii ""forests"" in open sun"
+688,AAU,,"K. Larsen, T. Smitinand & E. Warncke 749",Leucobryum sp.,,Thailand,Phitsanulok,Thung Salaeng Luang National Park,"Thung Salaeng Luang, SoPha waterfall, 7 km W.o the forest station.",22-Jul-66,450 m,,,On the rocks
+689,AAU,,"Larsen, K. & Warncke, E. 1056",Leucobryum sanctum,Leucobryum sanctum,Thailand,Phitsanulok,Phu Miang and Phu Tong Wildlife Sanctuary,Phu Miang,28-Jul-66,1350 m,,,on tree
+690,NY,4115082,S. He & P. Sukkharak 46676,Leucobryum javense var. ?,,Thailand,Loei,Phu Luang Wildlife Sanctury,trail from Ban Kulaphaw station to Pak Dam summit,18-Feb-16,1465-1480 m,,,"on humus, dry evergreen forest"
+691,NY,4115087,S. He & S. Chantanaorrapint 47805,Leucobryum bowringii,,Thailand,Loei,Phu Luang Wildlife Sanctury,Luang Prabang Mountain Range,17-Nov-16,1462-1467 m,,,evergreen forest. on tree base.
+692,NY,4115097,S. He & S. Chantanaorrapint 47819,Leucobryum javense var. ?,,Thailand,Loei,Phu Luang Wildlife Sanctury,Luang Prabang Mountain Range,17-Nov-16,1462-1467 m,,,"on humus, dry evergreen forest"
+693,NY,4115359,J.F. Maxwell B-137,Leucobryum aduncum var. scalare,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Muang District,17-Nov-02,1325 m,,,partly shaded.
+694,KU,,A. Chailungka 3,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"cut forest, moist and partial shade, growing on Castinopsis trunk"
+695,KU,,A. Chailungka 5,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"dry and sunny area, growing on bark of conifer tree"
+696,KU,,A. Thonglim 8,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"partly shade light, growing on stump"
+697,KU,,B. Chorchuhirun 008,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Lan Suriyan trail",22-Oct-17,1474 m,17.27947222,101.5168417,"scrub forest, moist and filtered light, growing on bark tree"
+698,KU,,C. Jansorng 367,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,Along the Lan Hin Poom trail,17-Oct-16,1308 m,16.98829444,100.9955194,"cut forest, mesic area with filtered light, growing on tree trunk"
+699,KU,,C. Sitthichoptham CHS-DP-176,Leucobryum microleucophanoides,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on granite"
+700,KU,,E. Kraichak 1682,Leucobryum,,Thailand,Loei,Phu Kradueng National Park,,24-Jan-15,,,,
+701,KU,,E. Kraichak 1693,Leucobryum,,Thailand,"
+Trat",,Saphan Hin Waterfall,05-May-15,,,,
+702,KU,,E. Kraichak 1730,Leucobryum,Leucobryum scabrum,Thailand,Nakhon Ratchasima,Khao Yai National Park,???????????????,23-Mar-19,,,,"filtered forest, mesic and open forest, base tree"
+703,KU,,E. Kraichak 1731,Leucobryum,Leucobryum bowringii,Thailand,Nakhon Ratchasima,Khao Yai National Park,???????????????,23-Mar-19,,,,"filtered forest, mesic and open forest, log"
+704,KU,,E. Kraichak 1732,Leucobryum,Leucobryum scalare,Thailand,Nakhon Ratchasima,Khao Yai National Park,???????????????,23-Mar-19,,,,"filtered forest, valley, mesic and open forest, outcrop"
+705,KU,,I. Arayataweegool 12,Leucobryum microleucophanoides,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on fallen tree"
+706,KU,,I. Arayataweegool 13,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on granite"
+707,KU,,K. Chaithong 341,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,Along the Lan Hin Poom trail,17-Oct-16,1308 m,16.98829444,100.9954944,"cut forest, moist area with filtered light, growing on tree trunk"
+708,KU,,K. Lertdechapat 15,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Pha Ta Lern (??????) trail",23-Oct-17,1459 m,17.30308333,101.5291111,"woodland, moist area with open light, growing on yhe humus"
+709,KU,,K. Promnikorn 3,Leucobryum,,Thailand,Lamphun,Doi Khun Tan National Park,,07-Nov-15,,,,
+710,KU,,K. Promnikorn 4,Leucobryum,,Thailand,Lamphun,Doi Khun Tan National Park,,07-Nov-15,,,,
+711,KU,,K. Promnikorn 5,Leucobryum,,Thailand,Lamphun,Doi Khun Tan National Park,,07-Nov-15,,,,
+712,KU,,M. Sangachart 405,Leucobryum,Leucobryum bowringii,Thailand,Nakhon Ratchasima,Khao Yai National Park,Along the Pha Deaw Dai trail,17-Aug-16,1113 m,14.36561389,101.4077722,"cut forest, moist area with filtered light, growing on tree trunk"
+713,KU,,N. Anantaprayoon 04,Leucobryum,Leucobryum javense var. javense,Thailand,Nakhon Ratchasima,Khao Yai National Park,??????????,31-Mar-18,,,,
+714,KU,,N. Jantaraprasit 07,Leucobryum,,Thailand,Phangnga,,????????? ?????,,,,,"sunny, dry, trail, open forest, sand soil, base tree"
+715,KU,,N. Jantaraprasit 21,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk
+716,KU,,N. Jantaraprasit 25,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk 
+717,KU,,N. Jantaraprasit 26,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk 
+718,KU,,N. Jantaraprasit 34,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk 
+719,KU,,N. Jantaraprasit 37,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk
+720,KU,,N. Jantaraprasit 38,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk 
+721,KU,,N. Jantaraprasit 41,Leucobryum,,Thailand,Ranong,,Khao Pho Ta Chong Dong,10-Nov-18,,,,epiphyte trunk 
+722,KU,,N. Jantaraprasit 42,Leucobryum,,Thailand,Phangnga,Si Phangnga National Park,Si Phangnga,11-Nov-18,,,,epiphyte trunk 
+723,KU,,N. Meeprom 23,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huai Kok Ma Long term Forest Ecology Plot,25-Oct-15,1353 m,18.81145,98.90076667,"filtered forest,moist and slope area under dense forest, growing on a dead, rotten, haedwood log"
+724,KU,,N. Siriwong 07,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,Along the Lan Hin Poom trail,22-Oct-17,400 m,17.14,101.6609833,"scrub forest, moist area with open light, growing on humus"
+725,KU,,N. Siriwong 15,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,Along the Pha Ta Ream trail,23-Oct-17,400 m,17.14,101.6609833,"woodland, moist area with open light, growing on humus"
+726,KU,,N. Soncha 383-12,Leucobryum,Leucobryum scalare,Thailand,Nakhon Ratchasima,Khao Yai National Park,Along the Pha Deaw Dai trail,23-Aug-16,1113 m,14.36561389,101.4077722,"cut forest, moist area with filtered light, growing on trunk"
+727,KU,,N. Wutthikasetkij 7,Leucobryum ,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on granite"
+728,KU,,O. Hongkerd 464,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,,17-Oct-16,1308 m,16.98829444,100.9954944,"cut forest, mesic area with filtered light, growing on trunk"
+729,KU,,P. Punnatrakool 2,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Huai Kok Ma Long term Forest Ecology Plot,24-Oct-15,1404 m,18.80356667,98.8958,"dry and open area with filtered light, growing on a bark of hardwood"
+730,KU,,P. Sing-On,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic area with partial shape light, growing on hardwood stump"
+731,KU,,S. Chanachai 456,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,Along the Lan Hin Poom trail,17-Oct-16,1308 m,16.98805556,100.9952778,"cut forest, moist area with filtered light, growing on gravel"
+732,KU,,S. Nansai 005,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Lan Suriyan trail",25-Oct-17,1474 m,17.27947222,101.5184167,"scrub forest, mesic area with filtered light, growing on clay"
+733,KU,,S. Tatongjai 008,Leucobryum scabrum,,Thailand,Loei,Phu Luang Wildlife Sanctury,Along the trail,22-Oct-17,1474 m,17.27947222,101.5168417,"scryb fforest, mesic area with filtered light, growing on outcrop"
+734,KU,,S. Yodphaka 002,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"mesic and open area, growing on bark the tree"
+735,KU,,S. Yodphaka 014,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,Along the Lan Hin Poom trail,17-Oct-16,1308 m,16.98829444,100.9954944,"open forest with the dominant species Leuceana leucophyllum, mesic area with filtered light, growing on soil"
+736,KU,,Thewarit 11,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"dry and filtered area, growing on bark, east facing side"
+737,KU,,U. Chantanet 705,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"dry and filtered area, growing on bark, east facing side"
+738,KU,,V.Khamdi 430,Leucobryum,,Thailand,Phitsanulok,Phu Hin rong Kla National Park,Along the Lan Hin Poom trail,17-Oct-16,1308 m,16.98829444,100.9954944,"cut forest, mesic area with filtered light, growing on trunk"
+739,KU,,W. Boonthasak 33,Leucobryum scabrum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Lan Suriyan trail",22-Oct-17,1474 m,17.27947222,101.5168417,"scrub forest, moist and filtered light, growing on outcrop rock"
+740,KU,,W. Klinneam Bry12,Leucobryum microleucophanoides,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on fallen tree"
+741,KU,,W. Klinneam Bry9,Leucobryum,,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on granite"
+742,KU,,W. Promsawat 002,Leucobryum scabrum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Lan Suriyan trail",22-Oct-17,1474 m,17.27947222,101.5184167,"scrub forest, moist and open area, growing on humus"
+743,KU,,W. Promsawat 014,Leucobryum,,Thailand,Loei,Phu Luang Wildlife Sanctury,"Phuluang, along the Pha Ta Lern (??????) trail",23-Oct-17,1459 m,17.30308333,101.5291111,"scrub forest, moist and open area, growing on humus"
+744,KU,,W. Promsawat 015,Leucobryum microleucophanoides,Leucobryum scalare,Thailand,Chiang Mai,Doi Suthep-Pui National Park,Doi Pui Forestry Student Training Station,24-Oct-15,1404 m,18.80356667,98.8958,"open forest, mesic and open area, growing on fallen tree"
+745,CMUB,,Benito,Leucobryum sp.,,,,,,,,,,
+999,KU,,P. Tiwutanon 100,Leucobryum aduncum,Leucobryum aduncum,Thailand,Ubon Ratchathani,Phu Chong Na Yoi National Park,?????????-????????????? ????????????????????????,12-Dec-20,,14.43720886,105.2770533,
