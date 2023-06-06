@@ -1,0 +1,398 @@
+---
+title: "SDMs of Leucobryum"
+author: "Puwadol Chawengkul"
+date: "15/8/2022"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# 0. Set working environment
+
+```{r Libraries and extent}
+library(dismo) #species distribution
+library(raster) #read shape file
+library(sp)
+library(SDMtune)
+library(tidyverse) #plot locations
+library(maps) #map data
+library(rasterVis)  #plot raster objects
+library(geodata)
+library(rJava)
+library(zeallot)  #unpacking assignment (%<-%)
+
+set.seed(1) #set random number for entire script
+
+#country <- gadm("Thailand", level = 0, path = getwd())
+#country.ext <- as(country, "Spatial")
+ext <- as(extent(89,153,-12,31), "SpatialPolygons")
+```
+
+# 1. Environmental variables
+
+## 1.1 Get bioclim
+
+Get the available bioclim data from the worldclim dataset. See more at [Bioclimatic variables](https://www.worldclim.org/data/bioclim.html)
+
+```{r Get bioclim data}
+my.files <- list.files("C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/wc2.1_2.5m_bio", ".tif$", full.names=T, recursive=T)
+bioclim <- stack(my.files)
+names(bioclim) <- c("wc2_1","wc2_10","wc2_11","wc2_12","wc2_13","wc2_14","wc2_15","wc2_16","wc2_17","wc2_18","wc2_19","wc2_2","wc2_3","wc2_4","wc2_5","wc2_6","wc2_7","wc2_8","wc2_9")
+```
+
+Stack predictors
+
+```{r Stack predictors}
+predictors.0 <- stack(bioclim[[c(1:19)]]) #choose bio1-19
+predictors.1 <- crop(predictors.0, ext)
+predictors <- mask(predictors.1, ext)
+names(predictors)
+```
+
+## 1.2 Plot predictor
+
+```{r bio 1}
+#check bio1 to bio1
+gplot(predictors$wc2_1) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+```
+
+# 2. Species occurrence
+
+## 2.1 Import from GBIF
+
+```{r Import from GBIF}
+gbif <- gbif("leucobryum","aduncum")
+```
+
+Clean data
+
+```{r Clean GBIF data}
+unique(gbif$fullCountry)
+
+gbif.clean <- gbif %>% 
+  #remove Leucobryum aduncum var. scalare
+  filter(acceptedScientificName == "Leucobryum aduncum Dozy & Molkenboer, 1854") %>% 
+  #filter(fullCountry == "Thailand") %>% 
+  select(lon, lat) %>% 
+  na.omit()
+```
+
+## 2.2 Import from .csv
+
+```{r Import from .csv}
+csv <- read_csv("Leucobryum-Specimens.csv")
+```
+
+Clean data
+
+```{r Clean .csv data}
+unique(csv$fullCountry)
+
+csv.clean <- csv %>% 
+  filter(Corrected_name == "Leucobryum aduncum") %>% 
+  #filter(fullCountry == "Thailand") %>%
+  select(lon, lat) %>% 
+  na.omit()
+```
+
+## 2.3 Merge GBIF and .csv
+
+```{r Merge GBIF and .csv}
+gbif.csv <- rbind(gbif.clean,csv.clean)
+```
+
+## 2.4 Species occurrence plot
+
+```{r Species occurrence plot}
+ggplot(map_data("world", region = "."), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = gbif.csv, aes(x = lon, y = lat), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_fixed() #+ 
+  #scale_x_continuous(limits = c(89, 153)) +
+  #scale_y_continuous(limits = c(-12, 31))
+```
+
+## 2.5 Background plot
+
+```{r Create random background points}
+bg.point <- randomPoints(predictors, 10000)
+```
+
+```{r Background Plot}
+ggplot(map_data("world", region = "."), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = as.data.frame(bg.point), aes(x = x, y = y), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme(legend.position = "none") +
+  coord_fixed() +
+  scale_x_continuous(limits = c(89, 153)) +
+  scale_y_continuous(limits = c(-12, 31))
+```
+
+# 3. Traning and evaluating the models
+
+## 3.1 SWD object
+
+```{r Create SWD object (species)}
+data <- prepareSWD(species = "Leucobryum aduncum", p = gbif.csv, a = bg.point, env = predictors)
+
+data
+head(data@data)
+head(data@coords)
+data@species
+```
+
+```{r Save an SWD object (species)}
+#save a single file, pa indicating presence = 1 & background = 0
+swd2csv(data, file_name = "data.csv")
+
+#for two separate files
+#swd2csv(data, file_name = c("presence.csv", "background.csv"))
+```
+
+```{r Create SWD object (background)}
+bg <- prepareSWD(species = "Bgs", a = bg.point, env = predictors)
+```
+
+```{r Explore variable correlation}
+plotCor(bg, method = "spearman", cor_th = 0.7)
+corVar(bg, method = "spearman", cor_th = 0.7)
+```
+
+```{r Train model with default setting}
+c(train, test) %<-% trainValTest(data, test = 0.3, only_presence = TRUE, seed = 1)
+maxnet_model <- train("Maxnet", data = train)
+
+saveRDS(maxnet_model, file = "maxnet_model.RDS")
+maxnet_model <- readRDS("maxnet_model.RDS")
+
+vi.0 <- varImp(maxnet_model, permut = 10)
+vi.0
+plotVarImp(vi.0)
+cat("Training AUC: ", auc(maxnet_model))
+cat("Testing AUC: ", auc(maxnet_model, test = test))
+plotROC(maxnet_model)
+plotROC(maxnet_model, test = test)
+```
+
+```{r Remove highly correlated variables}
+#jk <- doJk(maxnet_model, metric = "auc", test = test)
+#jk
+#plotJk(jk, type = "train", ref = auc(maxnet_model))
+#plotJk(jk, type = "test", ref = auc(maxnet_model, test = test))
+
+#Jackknife test has already included in VarSel()
+selected_variables_model <- varSel(maxnet_model, metric = "auc", test = test, bg4cor = bg, method = "spearman", cor_th = 0.7, permut = 10)
+selected_variables_model
+
+saveRDS(selected_variables_model, file = "selected_variables_model.RDS")
+selected_variables_model <- readRDS("selected_variables_model.RDS")
+
+vi <- varImp(selected_variables_model, permut = 10)
+vi
+plotVarImp(vi)
+cat("Training AUC: ", auc(selected_variables_model))
+cat("Testing AUC: ", auc(selected_variables_model, test = test))
+plotROC(selected_variables_model)
+plotROC(selected_variables_model, test = test)
+```
+
+```{r Response curves}
+plotResponse(selected_variables_model, var = "wc2_1", type = "cloglog", only_presence = TRUE, marginal = TRUE, fun = mean, rug = TRUE)
+```
+
+# 4. Making predictions
+
+```{r Create a distribution map}
+map.0 <- predict(selected_variables_model, data = predictors, type = "cloglog", file = "my_map", format = "GTiff", overwrite = TRUE)
+
+map.1 <- crop(map.0, ext)
+map.2 <- mask(map.1, ext)
+```
+
+```{r Plot a distribution map}
+plotPred(map.2, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+```
+
+```{r Model report}
+modelReport(selected_variables_model, type = "cloglog", folder = "Leucobryum_aduncum", test = test, response_curves = TRUE, only_presence = TRUE, jk = TRUE, env = predictors)
+```
+
+# 5. Future projections
+
+## 5.1 Get future bioclim ssp 245
+
+```{r Future ssp 245 model 1}
+cmip6.45.1.0 <- cmip6_world("CNRM-CM6-1", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.1.1 <- crop(cmip6.45.1.0, ext)
+cmip6.45.1 <- stack(cmip6.45.1.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.1)
+
+gplot(cmip6.45.1$wc2_1) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+```
+
+```{r Future ssp 245 model 2}
+cmip6.45.2.0 <- cmip6_world("EC-Earth3-Veg", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.2.1 <- crop(cmip6.45.2.0, ext)
+cmip6.45.2 <- stack(cmip6.45.2.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.2)
+```
+
+```{r Future ssp 245 model 3}
+cmip6.45.3.0 <- cmip6_world("MPI-ESM1-2-HR", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.3.1 <- crop(cmip6.45.3.0, ext)
+cmip6.45.3 <- stack(cmip6.45.3.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.3)
+```
+
+```{r Future ssp 245 model 4}
+cmip6.45.4.0 <- cmip6_world("MPI-ESM1-2-LR", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.4.1 <- crop(cmip6.45.4.0, ext)
+cmip6.45.4 <- stack(cmip6.45.4.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.4)
+```
+
+```{r Future ssp 245 model 5}
+cmip6.45.5.0 <- cmip6_world("MRI-ESM2-0", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.5.1 <- crop(cmip6.45.5.0, ext)
+cmip6.45.5 <- stack(cmip6.45.5.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.5)
+```
+
+```{r Future ssp 245 model 6}
+cmip6.45.6.0 <- cmip6_world("UKESM1-0-LL", "245", "2061-2080", var = "bioc", res = 2.5, path = getwd())
+cmip6.45.6.1 <- crop(cmip6.45.6.0, ext)
+cmip6.45.6 <- stack(cmip6.45.6.1[[c(1:19)]]) #choose bio1-19
+names(cmip6.45.6)
+```
+
+## 5.2 Making future predictions
+
+```{r Create the future distribution maps}
+map.0.45.1 <- predict(selected_variables_model, data = cmip6.45.1, type = "cloglog", file = "my_map_1", format = "GTiff", overwrite = TRUE)
+map.1.45.1 <- crop(map.0.45.1, ext)
+map.2.45.1 <- mask(map.1.45.1, ext)
+
+map.0.45.2 <- predict(selected_variables_model, data = cmip6.45.2, type = "cloglog", file = "my_map_2", format = "GTiff", overwrite = TRUE)
+map.1.45.2 <- crop(map.0.45.2, ext)
+map.2.45.2 <- mask(map.1.45.2, ext)
+
+map.0.45.3 <- predict(selected_variables_model, data = cmip6.45.3, type = "cloglog", file = "my_map_3", format = "GTiff", overwrite = TRUE)
+map.1.45.3 <- crop(map.0.45.3, ext)
+map.2.45.3 <- mask(map.1.45.3, ext)
+
+map.0.45.4 <- predict(selected_variables_model, data = cmip6.45.4, type = "cloglog", file = "my_map_4", format = "GTiff", overwrite = TRUE)
+map.1.45.4 <- crop(map.0.45.4, ext)
+map.2.45.4 <- mask(map.1.45.4, ext)
+
+map.0.45.5 <- predict(selected_variables_model, data = cmip6.45.5, type = "cloglog", file = "my_map_5", format = "GTiff", overwrite = TRUE)
+map.1.45.5 <- crop(map.0.45.5, ext)
+map.2.45.5 <- mask(map.1.45.5, ext)
+
+map.0.45.6 <- predict(selected_variables_model, data = cmip6.45.6, type = "cloglog", file = "my_map_6", format = "GTiff", overwrite = TRUE)
+map.1.45.6 <- crop(map.0.45.6, ext)
+map.2.45.6 <- mask(map.1.45.6, ext)
+```
+
+```{r Plot the future distribution maps}
+#Current distribution map
+plotPred(map.2, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 1
+plotPred(map.2.45.1, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 2
+plotPred(map.2.45.2, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 3
+plotPred(map.2.45.3, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 4
+plotPred(map.2.45.4, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 5
+plotPred(map.2.45.5, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Future distribution map 6
+plotPred(map.2.45.6, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+
+#Mean future distribution map
+future.0 <- stack(map.2.45.1,map.2.45.2,map.2.45.3,map.2.45.4,map.2.45.5,map.2.45.6)
+future <- mean(future.0[[c(1:6)]])
+
+plotPred(future, lt = "Habitat\nsuitability", colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"), hr = TRUE)
+```
+
+```{r Plot the presence/absence maps}
+ths <- thresholds(selected_variables_model, type = "cloglog")
+thresholds(selected_variables_model, type = "cloglog")
+
+#Current presence/absence map
+plotPA(map.2, th = ths[3, 2], filename = "my_pa_map", format = "GTiff", overwrite = TRUE, hr = TRUE)
+
+#Future presence/absence maps
+plotPA(map.2.45.1, th = ths[3, 2], filename = "my_pa_map_1", format = "GTiff", overwrite = TRUE, hr = TRUE)
+plotPA(map.2.45.2, th = ths[3, 2], filename = "my_pa_map_2", format = "GTiff", overwrite = TRUE, hr = TRUE)
+plotPA(map.2.45.3, th = ths[3, 2], filename = "my_pa_map_3", format = "GTiff", overwrite = TRUE, hr = TRUE)
+plotPA(map.2.45.4, th = ths[3, 2], filename = "my_pa_map_4", format = "GTiff", overwrite = TRUE, hr = TRUE)
+plotPA(map.2.45.5, th = ths[3, 2], filename = "my_pa_map_5", format = "GTiff", overwrite = TRUE, hr = TRUE)
+plotPA(map.2.45.6, th = ths[3, 2], filename = "my_pa_map_6", format = "GTiff", overwrite = TRUE, hr = TRUE)
+
+plotPA(future, th = ths[3, 2], filename = "my_pa_map_future", format = "GTiff", overwrite = TRUE, hr = TRUE)
+```
+
+```{r Summary of the future presence/absence maps}
+future.map <- stack("C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_1.tif", "C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_2.tif", "C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_3.tif", "C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_4.tif", "C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_5.tif", "C:/Users/Puwadol/My Drive/Puwadol Workplace/Master Thesis/04 Leucobryum/SDM_Leucobryum/my_pa_map_6.tif")
+
+future.sum <- sum(future.map)
+gplot(future.sum) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+
+future.freq <- as.data.frame(freq(future.sum))
+
+write.csv(future.freq, "C:\\Users\\Puwadol\\My Drive\\Puwadol Workplace\\Master Thesis\\04 Leucobryum\\SDM_Leucobryum\\future.freq.csv", row.names = FALSE)
+```

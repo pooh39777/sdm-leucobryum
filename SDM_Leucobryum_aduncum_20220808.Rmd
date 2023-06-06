@@ -1,0 +1,183 @@
+---
+title: "SDMs of Leucobryum"
+author: "Puwadol Chawengkul"
+date: "8/8/2022"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# 0. Set working environment
+
+```{r Libraries}
+library(dismo) #species distribution
+library(raster) #read shape file
+library(sp)
+library(SDMtune)
+library(tidyverse) #plot locations
+library(maps) #map data
+library(rasterVis)  #plot raster objects
+library(geodata)
+library(rJava)
+library(zeallot)  #unpacking assignment (%<-%)
+
+set.seed(1) #set random number for entire script
+```
+
+# 1. Environmental variables
+
+## 1.1 Get bioclim and elevation data
+
+Get the available bioclim data from the worldclim dataset. See more at [Bioclimatic variables](https://www.worldclim.org/data/bioclim.html)
+
+```{r Get bioclim data}
+bioclim.0 <- worldclim_country("Thailand", var = "bio", path = getwd(), res = 0.5)
+bioclim <- stack(bioclim.0)
+```
+
+Get elevation from SRTM 90 m resolution data between -60 and 60 latitude
+
+```{r Get elevation data}
+elevation.0 <- elevation_30s("Thailand", path = getwd(), mask = TRUE, res = 0.5)
+elevation.1 <- raster(elevation.0)
+```
+
+Make "elevation" be equal column to "bioclim" (for stacking)
+
+```{r Stack preparation}
+elevation <- resample(elevation.1, bioclim, method = "bilinear")
+```
+
+Stack predictors
+
+```{r Stack predictors}
+predictors <- stack(bioclim[[c(1:19)]], elevation) #choose bio1-19 and THA_elv
+
+names(predictors)
+```
+
+## 1.2 Plot predictor
+
+```{r bio 1}
+gplot(predictors$wc2.1_30s_bio_19) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+```
+
+# 2. Species occurrence
+
+## 2.1 Import from GBIF
+
+```{r Import from GBIF}
+gbif <- gbif("leucobryum","aduncum")
+```
+
+Clean data
+
+```{r Clean GBIF data}
+gbif.clean <- gbif %>% 
+  #remove Leucobryum aduncum var. scalare
+  filter(acceptedScientificName == "Leucobryum aduncum Dozy & Molkenboer, 1854") %>% 
+  filter(fullCountry == "Thailand") %>% 
+  select(lon, lat) %>% 
+  na.omit()
+```
+
+## 2.2 Import from .csv
+
+```{r Import from .csv}
+csv <- read_csv("Leucobryum-Specimens.csv")
+```
+
+Clean data
+
+```{r Clean .csv data}
+csv.clean <- csv %>% 
+  filter(Corrected_name == "Leucobryum aduncum") %>% 
+  select(lon, lat) %>% 
+  na.omit()
+```
+
+## 2.3 Merge GBIF and .csv
+
+```{r Merge GBIF and .csv}
+gbif.csv <- rbind(gbif.clean,csv.clean)
+```
+
+## 2.4 Species occurrence plot
+
+```{r Species occurrence plot}
+ggplot(map_data("world", region = "Thailand"), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = gbif.csv, aes(x = lon, y = lat), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_fixed() +
+  scale_x_continuous(limits = c(97, 106)) +
+  scale_y_continuous(limits = c(5, 21))
+```
+
+## 2.5 Background Plot
+
+```{r Create random background points}
+bg <- randomPoints(predictors[[20]], 10000)
+```
+
+```{r Backgroun Plot}
+ggplot(map_data("world", region = "Thailand"), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = as.data.frame(bg), aes(x = x, y = y), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_fixed() +
+  scale_x_continuous(limits = c(97, 106)) +
+  scale_y_continuous(limits = c(5, 21))
+```
+
+## 2.6 SWD object
+
+```{r Create SWD object}
+data <- prepareSWD(species = "Leucobryum aduncum", p = gbif.csv, a = bg, env = predictors)
+
+data
+head(data@data)
+head(data@coords)
+data@species
+```
+
+```{r Save an SWD object}
+#save a single file, pa indicating presence = 1 & background = 0
+swd2csv(data, file_name = "data.csv")
+
+#for two separate files
+#swd2csv(data, file_name = c("presence.csv", "background.csv"))
+```
+
+```{r In Progress}
+bg.cor.0 <- randomPoints(predictors, 10000)
+bg.cor <- prepareSWD(species = "Bgs", a = bg.cor.0, env = predictors)
+
+plotCor(bg.cor, method = "spearman", cor_th = 0.7)
+corVar(bg.cor, method = "spearman", cor_th = 0.7)
+
+c(train, test) %<-% trainValTest(data, test = 0.3, only_presence = TRUE, seed = 1)
+maxnet_model <- train("Maxnet", data = train)
+
+selected_variables_model <- varSel(maxnet_model, metric = "auc", test = test, bg4cor = bg.cor, method = "spearman", cor_th = 0.7, permut = 1)
+
+map <- predict(selected_variables_model, data = predictors, type = "cloglog", file = "my_map", format = "GTiff")
+```
