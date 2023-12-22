@@ -12,7 +12,7 @@ editor_options:
 ```{r Libraries and extent}
 library(dismo) #species distribution
 library(raster) #read shape file
-library(sp)
+library(sf)
 library(SDMtune)
 library(tidyverse) #plot locations
 library(mapview) #plot locations on interactive map
@@ -525,12 +525,12 @@ raster_area <- length(cell_size)*median(cell_size)
 #Print area according to raster object
 cat("Study area:", raster_area, "km2")
 
-future_freq <- as.data.frame(freq(future.sum, useNA = "no")) %>% 
+future_freq_consensus <- as.data.frame(freq(future.sum, useNA = "no")) %>% 
   mutate(area_km2 = count/sum(count)*raster_area) %>% 
   mutate(percentage = round(count/sum(count)*100, 2))
-future_freq
+future_freq_consensus
 
-write.csv(future_freq, "future_freq.csv", row.names = FALSE)
+write.csv(future_freq_consensus, "future_freq_consensus.csv", row.names = FALSE)
 ```
 
 # 6. Future changing distribution
