@@ -494,7 +494,7 @@ ggsave("pa_map_future_mean.png", width = 10, height = 7.5, units = "cm")
 ggsave("pa_map_future_mean.pdf", width = 10, height = 7.5, units = "cm")
 ```
 
-```{r Summary of the future presence/absence maps}
+```{r Consensus of the future presence/absence maps}
 future.maps <- stack("pa_map_future_1.tif", "pa_map_future_2.tif", "pa_map_future_3.tif", "pa_map_future_4.tif", "pa_map_future_5.tif", "pa_map_future_6.tif")
 
 future.sum <- sum(future.maps)
@@ -515,7 +515,9 @@ gplot(future.sum) +
           axis.ticks.y = element_blank())
 ggsave("pa_map_future_sum.png", width = 10, height = 7.5, units = "cm")
 ggsave("pa_map_future_sum.pdf", width = 10, height = 7.5, units = "cm")
+```
 
+```{r Consensus of the future presence/absence}
 #Get sizes of all cells in raster (km2)
 cell_size <- cellSize(future.mean, mask = TRUE, unit = "km")
 #Delete NAs from vector of all raster cells
@@ -553,10 +555,10 @@ pa_map_change_df <- pa_map_change_df.0 %>%
 ggplot() +
   geom_raster(data = pa_map_change_df, 
               aes(x = x, y = y, fill = layer.2)) +
-  labs(x = "longitude", y = "latitude") +
+  labs(x = "Longitude (°)", y = "Latitude (°)") +
   scale_fill_manual(values = c("tomato", "grey", "cornflowerblue", "green"), 
                     name = "Class",
-                    labels = c("Decrease", "Absent", "Consistent", "Increase", "Sea"),
+                    labels = c("Disappearance", "Continued absence", "Continued presence", "Gaining", "Sea"),
                     na.value = "NA") + 
   geom_jitter(data = gbif.csv, aes(x = lon, y = lat), color = "black", alpha = 0.4, size = 1) +
   scale_x_continuous(limits = c(95, 140)) +
