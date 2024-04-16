@@ -37,8 +37,7 @@ train(method = "Maxnet", data = data)
 
 ## 1.1 Get bioclim
 
-Get the available bioclim data from the worldclim dataset from [wc2.1_2.5m_bio.zip](https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_2.5m_bio.zip)
-See more at [Bioclimatic variables](https://www.worldclim.org/data/bioclim.html)
+Get the available bioclim data from the worldclim dataset from [wc2.1_2.5m_bio.zip](https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_2.5m_bio.zip), see Bioclimatic variables' code explanation at [Bioclimatic variables](https://www.worldclim.org/data/bioclim.html)
 
 ```{r Get bioclim data}
 bio.files <- list.files("./wc2.1_2.5m_bio", ".tif$", full.names=T, recursive=T)
