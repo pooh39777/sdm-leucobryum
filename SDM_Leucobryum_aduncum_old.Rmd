@@ -1,5 +1,5 @@
 ---
-title: "SDMs of Leucobryum Aduncum"
+title: "SDMs of Leucobryum aduncum"
 author: "Puwadol Chawengkul"
 date: "3/10/2022"
 output: pdf_document
