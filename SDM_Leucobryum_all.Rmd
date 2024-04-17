@@ -1,5 +1,5 @@
 ---
-title: "SDMs of Leucobryum (All Species)"
+title: "SDMs of Leucobryum"
 author: "Puwadol Chawengkul"
 date: "15/04/2024"
 output: pdf_document
@@ -548,9 +548,9 @@ ggplot() +
                     name = "Class",
                     labels = c("Disappearance", "Continued absence", "Continued presence", "Gaining", "Sea"),
                     na.value = "NA") + 
-  geom_jitter(data = gbif.csv, aes(x = lon, y = lat), color = "black", alpha = 0.4, size = 1) +
-  scale_x_continuous(limits = c(95, 140)) +
-  scale_y_continuous(limits = c(-10, 23)) +
+  geom_jitter(data = occ, aes(x = longitude, y = latitude), color = "black", alpha = 0.4, size = 1) +
+  scale_x_continuous(limits = c(88.59, 152.93)) +
+  scale_y_continuous(limits = c(-12.38, 58.30)) +
   coord_quickmap() +
   theme_minimal()
 ggsave("pa_map_change.png", width = 15, height = 11.25, units = "cm")
