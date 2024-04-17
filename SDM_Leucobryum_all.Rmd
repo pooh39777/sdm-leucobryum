@@ -44,7 +44,7 @@ Get the available bioclim data from the worldclim dataset from [wc2.1_2.5m_bio.z
 ```{r Get bioclim data}
 bio.files <- list.files("./wc2.1_2.5m_bio", ".tif$", full.names=T, recursive=T)
 bioclim <- stack(bio.files)
-names(bioclim) <- c("wc2_1","wc2_10","wc2_11","wc2_12","wc2_13","wc2_14","wc2_15","wc2_16","wc2_17","wc2_18","wc2_19","wc2_2","wc2_3","wc2_4","wc2_5","wc2_6","wc2_15","wc2_8","wc2_9")
+names(bioclim) <- c("wc2_1","wc2_10","wc2_11","wc2_12","wc2_13","wc2_14","wc2_15","wc2_16","wc2_17","wc2_18","wc2_19","wc2_2","wc2_3","wc2_4","wc2_5","wc2_6","wc2_7","wc2_8","wc2_9")
 ```
 
 Stack predictors
