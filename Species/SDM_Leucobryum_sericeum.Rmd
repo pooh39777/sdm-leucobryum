@@ -1,0 +1,596 @@
+---
+title: "SDMs of Leucobryum sericeum"
+author: "Puwadol Chawengkul"
+date: "27/04/2024"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# 0. Set working environment
+
+```{r Libraries and extent}
+library(dismo) #species distribution
+library(raster) #read shape file
+library(sf)
+library(raptr) #random points
+library(spThin) #occurrence thinning
+library(SDMtune)
+library(tidyverse) #plot locations
+library(mapview) #plot locations on interactive map
+library(maps) #map data
+library(rasterVis)  #plot raster objects
+library(geodata)
+library(rJava)
+library(zeallot)  #unpacking assignment (%<-%)
+library(ENMeval)
+
+set.seed(25) #set random number for entire script
+
+#country <- gadm("Thailand", level = 0, path = getwd())
+#country.ext <- as(country, "Spatial")
+ext <- as(extent(88.59, 152.93, -12.38, 58.30), "SpatialPolygons")
+
+#Fix bug, let R know the method
+train(method = "Maxnet", data = data) #If you're running this code in the first time please skip and ignore error this line.
+```
+
+# 1. Environmental variables
+
+## 1.1 Get bioclim
+
+Get the available bioclim data from the worldclim dataset from [wc2.1_2.5m_bio.zip](https://biogeo.ucdavis.edu/data/worldclim/v2.1/base/wc2.1_2.5m_bio.zip), see Bioclimatic variables' code explanation at [Bioclimatic variables](https://www.worldclim.org/data/bioclim.html)
+
+```{r Get bioclim data}
+bio.files <- list.files("../WorldClim/wc2.1_2.5m_bio", ".tif$", full.names=T, recursive=T)
+bioclim <- stack(bio.files)
+names(bioclim) <- c("wc2_1","wc2_10","wc2_11","wc2_12","wc2_13","wc2_14","wc2_15","wc2_16","wc2_17","wc2_18","wc2_19","wc2_2","wc2_3","wc2_4","wc2_5","wc2_6","wc2_7","wc2_8","wc2_9")
+```
+
+Stack predictors
+
+```{r Stack predictors}
+predictors.0 <- stack(bioclim[[c(1:19)]]) #choose bio1-19
+predictors.1 <- crop(predictors.0, ext)
+predictors.2 <- mask(predictors.1, ext)
+predictors <- terra::rast(predictors.2)
+names(predictors)
+```
+
+## 1.2 Plot predictor
+
+```{r bio 1}
+#please check bio1 to bio19
+gplot(predictors$wc2_1) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+```
+
+# 2. Species occurrence
+
+## 2.1 Import from .csv
+
+```{r Import from .csv}
+csv <- read_csv("../Occurrence/data_20240422.csv")
+```
+
+Clean data
+
+```{r Clean .csv data}
+unique(csv$country)
+unique(csv$specificEpithet)
+
+occ.0 <- csv %>% 
+  filter(specificEpithet == "sericeum") %>% 
+  #filter(fullCountry == "Thailand") %>%
+  select(genus, specificEpithet, longitude, latitude) %>% 
+  na.omit()
+```
+
+## 2.2 Plot species occurrence
+
+```{r Plot species occurrence with ggplot}
+ggplot(map_data("world", region = "."), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = occ.0, aes(x = longitude, y = latitude), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_fixed() + 
+  scale_x_continuous(limits = c(88.59, 152.93)) +
+  scale_y_continuous(limits = c(-12.38, 58.30))
+```
+
+## 2.3 Occurrence thinning
+
+```{r Occurrence thinning}
+thin(occ.0, lat.col = "latitude", long.col = "longitude",
+     spec.col = "specificEpithet", thin.par = 4.5, reps = 1,
+     out.dir = getwd())
+
+occ <- read.csv("thinned_data_thin1.csv")
+```
+
+## 2.4 Plot thinned species occurrence
+
+```{r Plot species occurrence with ggplot}
+ggplot(map_data("world", region = "."), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = occ, aes(x = longitude, y = latitude), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme_minimal() +
+  theme(legend.position = "none") +
+  coord_fixed() + 
+  scale_x_continuous(limits = c(88.59, 152.93)) +
+  scale_y_continuous(limits = c(-12.38, 58.30))
+```
+
+## 2.5 Plot random background points
+
+```{r Create random background points}
+#bg.point <- raptr::randomPoints(predictors, 10000) # classic method 
+
+occ.SpatialPoints <- SpatialPoints(occ[, c("longitude", "latitude")], proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0"))
+
+buffer.0 <- buffer(occ.SpatialPoints, 500000) #circles with a radius of 5000 km
+buffer <- aggregate(buffer.0)
+
+bg.point <- spsample(buffer, n = 5000, type = "random")
+```
+
+```{r Plot random background points}
+ggplot(map_data("world", region = "."), aes(long, lat)) +
+    geom_polygon(aes(group = group), fill = "grey95", color = "gray40", size = 0.2) +
+  geom_jitter(data = as.data.frame(bg.point), aes(x = x, y = y), color = "red", alpha = 0.4, size = 1) +
+  labs(x = "longitude", y = "latitude") +
+  theme(legend.position = "none") +
+  coord_fixed() +
+  scale_x_continuous(limits = c(88.59, 152.93)) +
+  scale_y_continuous(limits = c(-12.38, 58.30))
+```
+
+# 3. Traning and evaluating the models
+
+## 3.1 SWD object
+
+```{r Create SWD object (species)}
+data <- prepareSWD(species = "Leucobryum sericeum", p = occ[,2:3], a = bg.point, env = predictors)
+
+data
+head(data@data)
+head(data@coords)
+data@species
+```
+
+```{r Save an SWD object (species)}
+#save a single file, pa indicating presence = 1 & background = 0
+swd2csv(data, file_name = "data_swd_Leucobryum_sericeum.csv")
+
+#for two separate files
+#swd2csv(data, file_name = c("presence.csv", "background.csv"))
+```
+
+```{r Create SWD object (background)}
+bg <- prepareSWD(species = "Bgs", a = bg.point, env = predictors)
+```
+
+```{r Explore variable correlation}
+plotCor(bg, method = "spearman", cor_th = 0.7)
+corVar(bg, method = "spearman", cor_th = 0.7)
+```
+
+```{r Train model with default setting}
+#Basic train without cross validation
+#c(train, test) %<-% trainValTest(data, test = 0.3, only_presence = TRUE, seed = 1)
+#maxnet_model <- train("Maxnet", data = train)
+
+#Fix varSel error message
+data <- addSamplesToBg(data, all = TRUE)
+
+#Spatial cross validation
+block_folds <- get.block(occs = data@coords[data@pa == 1, ], bg = data@coords[data@pa == 0, ])
+maxnet_model <- train(method = "Maxnet", data = data, fc = "lqph", reg = 1, folds = block_folds)
+
+saveRDS(maxnet_model, file = "maxnet_model.RDS")
+maxnet_model <- readRDS("maxnet_model.RDS")
+maxnet_model
+
+vi_maxnet_model <- varImp(maxnet_model, permut = 10)
+vi_maxnet_model
+plotVarImp(vi_maxnet_model)
+cat("Training AUC: ", auc(maxnet_model))
+cat("Testing AUC: ", auc(maxnet_model, test = TRUE))
+plotROC(maxnet_model@models[[1]])
+plotROC(maxnet_model@models[[2]])
+plotROC(maxnet_model@models[[3]])
+plotROC(maxnet_model@models[[4]])
+```
+
+```{r Remove highly correlated variables}
+#jk <- doJk(maxnet_model, metric = "auc", test = test)
+#jk
+#plotJk(jk, type = "train", ref = auc(maxnet_model))
+#plotJk(jk, type = "test", ref = auc(maxnet_model, test = test))
+
+#Jackknife test has already included in VarSel()
+selected_var_model <- varSel(maxnet_model, metric = "auc", bg4cor = bg, method = "spearman", cor_th = 0.7, permut = 10)
+
+saveRDS(selected_var_model, file = "selected_var_model.RDS")
+selected_var_model <- readRDS("selected_var_model.RDS")
+selected_var_model
+
+vi_selected_var_model <- varImp(selected_var_model, permut = 10)
+vi_selected_var_model
+plotVarImp(vi_selected_var_model)
+cat("Training AUC: ", auc(selected_var_model))
+cat("Testing AUC: ", auc(selected_var_model, test = TRUE))
+plotROC(selected_var_model@models[[1]])
+plotROC(selected_var_model@models[[2]])
+plotROC(selected_var_model@models[[3]])
+plotROC(selected_var_model@models[[4]])
+```
+
+```{r Tune model hyperparameters}
+h <- list(reg = seq(0.5, 10, 0.5), fc = c("l", "lq", "lh", "lp", "lqp", "lqph", "lqpht"))
+tune <- optimizeModel(selected_var_model, hypers = h, metric = "auc", gen = 20, seed = 25)
+head(tune@results)
+which.max(tune@results$test_AUC)
+tune@models[[1]] #Best model
+
+tuned_model <- train(method = "Maxnet", data = tune@models[[1]]@data, fc = tune@results[1, 1], reg = tune@results[1, 2], folds = block_folds)
+
+saveRDS(tuned_model, file = "tuned_model.RDS")
+tuned_model <- readRDS("tuned_model.RDS")
+tuned_model
+
+vi_tuned_model <- varImp(tuned_model, permut = 10)
+vi_tuned_model
+plotVarImp(vi_tuned_model)
+write.csv(vi_tuned_model, "vi_tuned_model.csv", row.names = FALSE)
+cat("Training AUC: ", auc(tuned_model))
+cat("Testing AUC: ", auc(tuned_model, test = TRUE))
+plotROC(tuned_model@models[[1]])
+plotROC(tuned_model@models[[2]])
+plotROC(tuned_model@models[[3]])
+plotROC(tuned_model@models[[4]])
+```
+
+```{r Response curves}
+plotResponse(tuned_model, var = "wc2_3", type = "cloglog", only_presence = TRUE, marginal = TRUE, fun = mean, rug = TRUE)
+ggsave("response_curve_wc2_3.png", width = 7, height = 7, units = "cm")
+ggsave("response_curve_wc2_3.pdf", width = 7, height = 7, units = "cm")
+
+plotResponse(tuned_model, var = "wc2_5", type = "cloglog", only_presence = TRUE, marginal = TRUE, fun = mean, rug = TRUE)
+ggsave("response_curve_wc2_5.png", width = 7, height = 7, units = "cm")
+ggsave("response_curve_wc2_5.pdf", width = 7, height = 7, units = "cm")
+```
+
+# 4. Making predictions
+
+```{r Create a distribution map}
+map.current.0 <- predict(tuned_model, data = predictors, type = "cloglog", filename = "map_current.tif", overwrite = TRUE)
+
+map.current <- crop(map.current.0, ext)
+```
+
+```{r Plot a distribution map}
+plotPred(map.current,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+
+ggsave("map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_current.pdf", width = 10, height = 7.5, units = "cm")
+```
+
+# 5. Future projections
+
+## 5.1 Get future bioclim ssp 245
+
+```{r Future ssp 245 model 1}
+cmip6.45.1.0 <- cmip6_world("CNRM-CM6-1", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+cmip6.45.1.1 <- crop(cmip6.45.1.0, ext)
+cmip6.45.1.2 <- stack(cmip6.45.1.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.1 <- terra::rast(cmip6.45.1.2)
+names(cmip6.45.1)
+
+gplot(cmip6.45.1$wc2_1) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "°C x 10") +
+    labs(title = "Annual Mean Temperature",
+         x = "longitude",
+         y = "latitude") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+```
+
+```{r Future ssp 245 model 2}
+cmip6.45.2.0 <- cmip6_world("EC-Earth3-Veg", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+cmip6.45.2.1 <- crop(cmip6.45.2.0, ext)
+cmip6.45.2.2 <- stack(cmip6.45.2.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.2 <- terra::rast(cmip6.45.2.2)
+names(cmip6.45.2)
+```
+
+```{r Future ssp 245 model 3}
+cmip6.45.3.0 <- cmip6_world("MPI-ESM1-2-HR", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+
+cmip6.45.3.1 <- crop(cmip6.45.3.0, ext)
+cmip6.45.3.2 <- stack(cmip6.45.3.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.3 <- terra::rast(cmip6.45.3.2)
+names(cmip6.45.3)
+```
+
+```{r Future ssp 245 model 4}
+cmip6.45.4.0 <- cmip6_world("MPI-ESM1-2-LR", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+cmip6.45.4.1 <- crop(cmip6.45.4.0, ext)
+cmip6.45.4.2 <- stack(cmip6.45.4.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.4 <- terra::rast(cmip6.45.4.2) 
+names(cmip6.45.4)
+```
+
+```{r Future ssp 245 model 5}
+cmip6.45.5.0 <- cmip6_world("MRI-ESM2-0", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+cmip6.45.5.1 <- crop(cmip6.45.5.0, ext)
+cmip6.45.5.2 <- stack(cmip6.45.5.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.5 <- terra::rast(cmip6.45.5.2)
+names(cmip6.45.5)
+```
+
+```{r Future ssp 245 model 6}
+cmip6.45.6.0 <- cmip6_world("UKESM1-0-LL", "245", "2061-2080", var = "bioc", res = 2.5, path = "../WorldClim/")
+cmip6.45.6.1 <- crop(cmip6.45.6.0, ext)
+cmip6.45.6.2 <- stack(cmip6.45.6.1[[c(1:19)]]) #choose bio1-19
+cmip6.45.6 <- terra::rast(cmip6.45.6.2)
+names(cmip6.45.6)
+```
+
+## 5.2 Making future predictions
+
+```{r Create the future distribution maps}
+map.45.1.0 <- predict(tuned_model, data = cmip6.45.1, type = "cloglog", file = "map_future_1.tif", overwrite = TRUE)
+map.45.1 <- crop(map.45.1.0, ext)
+
+map.45.2.0 <- predict(tuned_model, data = cmip6.45.2, type = "cloglog", file = "map_future_2.tif", overwrite = TRUE)
+map.45.2 <- crop(map.45.2.0, ext)
+
+map.45.3.0 <- predict(tuned_model, data = cmip6.45.3, type = "cloglog", file = "map_future_3.tif", overwrite = TRUE)
+map.45.3 <- crop(map.45.3.0, ext)
+
+map.45.4.0 <- predict(tuned_model, data = cmip6.45.4, type = "cloglog", file = "map_future_4.tif", overwrite = TRUE)
+map.45.4 <- crop(map.45.4.0, ext)
+
+map.45.5.0 <- predict(tuned_model, data = cmip6.45.5, type = "cloglog", file = "map_future_5.tif", overwrite = TRUE)
+map.45.5 <- crop(map.45.5.0, ext)
+
+map.45.6.0 <- predict(tuned_model, data = cmip6.45.6, type = "cloglog", file = "map_future_6.tif", overwrite = TRUE)
+map.45.6 <- crop(map.45.6.0, ext)
+```
+
+```{r Plot the future distribution maps}
+#Current distribution map
+plotPred(map.current,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_current.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 1
+plotPred(map.45.1,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_1.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_1.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 2
+plotPred(map.45.2,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_2.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_2.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 3
+plotPred(map.45.3,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_3.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_3.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 4
+plotPred(map.45.4,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_4.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_4.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 5
+plotPred(map.45.5,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_5.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_5.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future distribution map 6
+plotPred(map.45.6,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_6.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_6.pdf", width = 10, height = 7.5, units = "cm")
+
+#Mean future distribution map
+future.mean <- mean(map.45.1,map.45.2,map.45.3,map.45.4,map.45.5,map.45.6)
+
+plotPred(future.mean,
+         lt = "Habitat\nsuitability",
+         colorramp = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"))
+ggsave("map_future_mean.png", width = 10, height = 7.5, units = "cm")
+ggsave("map_future_mean.pdf", width = 10, height = 7.5, units = "cm")
+```
+
+```{r Plot the presence/absence maps}
+ths.1 <- thresholds(tuned_model@models[[1]], type = "cloglog")
+ths.2 <- thresholds(tuned_model@models[[2]], type = "cloglog")
+ths.3 <- thresholds(tuned_model@models[[3]], type = "cloglog")
+ths.4 <- thresholds(tuned_model@models[[4]], type = "cloglog")
+ths <- mean(c(ths.1[3, 2], ths.2[3, 2], ths.3[3, 2], ths.4[3, 2]))
+ths
+
+#Current presence/absence map
+plotPA(map.current, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_current.tif", overwrite = TRUE)
+ggsave("pa_map_current.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_current.pdf", width = 10, height = 7.5, units = "cm")
+
+#Future presence/absence maps
+plotPA(map.45.1, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_1.tif", overwrite = TRUE)
+ggsave("pa_map_future_1.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_1.pdf", width = 10, height = 7.5, units = "cm")
+plotPA(map.45.2, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_2.tif", overwrite = TRUE)
+ggsave("pa_map_future_2.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_2.pdf", width = 10, height = 7.5, units = "cm")
+plotPA(map.45.3, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_3.tif", overwrite = TRUE)
+ggsave("pa_map_future_3.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_3.pdf", width = 10, height = 7.5, units = "cm")
+plotPA(map.45.4, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_4.tif", overwrite = TRUE)
+ggsave("pa_map_future_4.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_4.pdf", width = 10, height = 7.5, units = "cm")
+plotPA(map.45.5, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_5.tif", overwrite = TRUE)
+ggsave("pa_map_future_5.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_5.pdf", width = 10, height = 7.5, units = "cm")
+plotPA(map.45.6, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_6.tif", overwrite = TRUE)
+ggsave("pa_map_future_6.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_6.pdf", width = 10, height = 7.5, units = "cm")
+
+plotPA(future.mean, th = ths, colors = c("#018571", "#d8b365"), filename = "pa_map_future_mean.tif", overwrite = TRUE)
+ggsave("pa_map_future_mean.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_mean.pdf", width = 10, height = 7.5, units = "cm")
+```
+
+```{r Consensus of the future presence/absence maps}
+future.maps <- stack("pa_map_future_1.tif", "pa_map_future_2.tif", "pa_map_future_3.tif", "pa_map_future_4.tif", "pa_map_future_5.tif", "pa_map_future_6.tif")
+
+future.sum <- sum(future.maps)
+gplot(future.sum) +
+    geom_tile(aes(fill = value)) +
+    coord_equal() +
+    scale_fill_gradientn(colours = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
+                         na.value = "transparent",
+                         name = "Frequency") +
+    labs(title = "The Consensus Map of the Future",
+         x = "Longitude (°)",
+         y = "Latitude (°)") +
+    scale_x_continuous(expand = c(0, 0)) +
+    scale_y_continuous(expand = c(0, 0)) +
+    theme_minimal() +
+    theme(plot.title = element_text(hjust = 0.5),
+          axis.ticks.x = element_blank(),
+          axis.ticks.y = element_blank())
+ggsave("pa_map_future_sum.png", width = 10, height = 7.5, units = "cm")
+ggsave("pa_map_future_sum.pdf", width = 10, height = 7.5, units = "cm")
+```
+
+```{r Consensus of the future presence/absence}
+#Get sizes of all cells in raster (km2)
+cell_size <- cellSize(future.mean, mask = TRUE, unit = "km")
+#Delete NAs from vector of all raster cells
+cell_size <- cell_size[!is.na(cell_size)]
+#Compute area (km2) of all cells
+raster_area <- length(cell_size)*median(cell_size)
+#Print area according to raster object
+cat("Study area:", raster_area, "km2")
+
+future_freq_consensus <- as.data.frame(freq(future.sum, useNA = "no")) %>% 
+  mutate(area_km2 = count/sum(count)*raster_area) %>% 
+  mutate(percentage = round(count/sum(count)*100, 2))
+future_freq_consensus
+
+write.csv(future_freq_consensus, "future_freq_consensus.csv", row.names = FALSE)
+```
+
+# 6. Future changing distribution
+
+## 6.1 Plot the changing distribution map
+
+```{r Calculate the diffence between current and future}
+pa_map_current <- raster("pa_map_current.tif")
+pa_map_future <- raster("pa_map_future_mean.tif")
+pa_map_change <- (2*pa_map_future) - pa_map_current
+#Values: increase area = 2, consistent area = 1, decrease area = -1,
+#        while 0 represented absent area in both current and future scenarios
+
+pa_map_change_df.0 <- as.data.frame(pa_map_change, xy = TRUE)
+pa_map_change_df <- pa_map_change_df.0 %>% 
+  mutate(layer.2 = cut(layer, breaks = c(-1.5, -0.5, 0.5, 1.5, 2.5)))
+```
+
+```{r Plot the changing distribution map}
+ggplot() +
+  geom_raster(data = pa_map_change_df, 
+              aes(x = x, y = y, fill = layer.2)) +
+  labs(x = "Longitude (°)", y = "Latitude (°)") +
+  scale_fill_manual(values = c("tomato", "grey", "cornflowerblue", "green"), 
+                    name = "Class",
+                    labels = c("Disappearance", "Continued absence", "Continued presence", "Gaining", "Sea"),
+                    na.value = "NA") + 
+  geom_jitter(data = occ, aes(x = longitude, y = latitude), color = "black", alpha = 0.4, size = 1) +
+  scale_x_continuous(limits = c(88.59, 152.93)) +
+  scale_y_continuous(limits = c(-12.38, 58.30)) +
+  coord_quickmap() +
+  theme_minimal()
+ggsave("pa_map_change.png", width = 15, height = 11.25, units = "cm")
+ggsave("pa_map_change.pdf", width = 15, height = 11.25, units = "cm")
+```
+
+## 6.2 Summary of the area
+
+```{r Current present area}
+pa_current_freq <- as.data.frame(freq(pa_map_current, useNA = "no")) %>% 
+  mutate(meaning = c("absent", "present")) %>% 
+  mutate(area_km2 = count/sum(count)*raster_area) %>% 
+  mutate(percentage = round(count/sum(count)*100, 2))
+
+pa_current_freq
+write.csv(pa_current_freq, "pa_current_freq.csv", row.names = FALSE)
+
+cat("Current present area:", pa_current_freq$area_km2[2], "km2")
+```
+
+```{r Future present area}
+pa_future_freq <- as.data.frame(freq(pa_map_future, useNA = "no")) %>% 
+  mutate(meaning = c("absent", "present")) %>% 
+  mutate(area_km2 = count/sum(count)*raster_area) %>% 
+  mutate(percentage = round(count/sum(count)*100, 2))
+
+pa_future_freq
+write.csv(pa_future_freq, "pa_future_freq.csv", row.names = FALSE)
+
+cat("Future present area:", pa_future_freq$area_km2[2], "km2")
+```
+
+```{r Future present area}
+pa_change_freq <- as.data.frame(freq(pa_map_change, useNA = "no")) %>% 
+  mutate(meaning = c("decrease", "absent", "consistent", "increase")) %>% 
+  mutate(area_km2 = count/sum(count)*raster_area) %>% 
+  mutate(percentage = round(count/sum(count)*100, 2)) %>% 
+  mutate(percentage_diff_current_present = round(area_km2/pa_current_freq$area_km2[2]*100, 2))
+
+pa_change_freq
+write.csv(pa_change_freq, "pa_change_freq.csv", row.names = FALSE)
+```
